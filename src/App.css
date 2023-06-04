@@ -1,0 +1,44 @@
+@import url(./assets/fonts/stylesheet.css);
+
+.container {
+  width: 1158px;
+  margin: auto;
+}
+html{
+  font-family: Montserrat;
+}
+button {
+  border: none;
+}
+a{
+  text-decoration: none;
+}
+.buttonLink{
+  background-color: #56CCF2;
+  color: white;
+  font-weight: 700;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 4px 18px;
+  display: inline-block;
+  text-align: center;
+}
+.buttonLink:hover{
+  transform: scale(0.9);
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+.text-center{
+  text-align: center;
+}
+.notesTitle{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #4F4F4F;
+  margin: 70px 0 20px;
+}

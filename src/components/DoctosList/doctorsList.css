@@ -1,0 +1,81 @@
+.doctorName img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.stateNoteButton{
+    background-color: #FFAB43;
+    padding: 3px;
+    color: #504F4F;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.doctorElem .flex-between{
+    padding: 10px 0;
+}
+.doctorName~div a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 10px 40px;
+}
+.statNote{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F6F8FB;
+}
+.statNote span{
+    margin-right: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.statNote p{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.doctorName h4{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #4F4F4F;
+    padding-bottom: 7px;
+}
+.doctorElem{
+    border-radius: 10px;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    padding: 25px;
+}
+.statNote img{
+    width: 18px;
+}
+.doctorName {
+    align-items: center;
+    gap: 10px;
+}
+.doctorInfo h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #4F4F4F;
+    margin-bottom: 7px;
+}
+.doctorName span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+.doctorName p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #4F4F4F;
+    margin-top: 7px;
+}

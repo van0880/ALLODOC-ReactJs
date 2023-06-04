@@ -1,0 +1,70 @@
+.profileDoctor{
+    background-color: #56CCF2;
+    padding: 24px 0 50px;
+}
+.profileDoctor img{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    padding: 10px 10px 10px 0
+}
+.profileNames{
+    align-items: center;
+    gap: 20px;
+}
+.profileNames h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: white;
+    margin-bottom: 20px;
+}
+.profileNames span{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: white;
+}
+.profileDoctor p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: white;
+    margin-top: 20px;
+}
+.profileDoctor .path{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+}
+.fullDescrip_elem{
+    margin-bottom: 60px;
+}
+.fullDescrip_elem h5{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #56CCF2;
+    margin-left: 20px;
+    margin-bottom: 32px;
+}
+.fullDescrip_elem h3{
+    font-size: 16px;
+    color: #56CCF2;
+}
+.fullDescrip_elem p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #504F4F;
+}
+.fullDescrip{
+    padding: 50px 0;
+}
+.fullDescrip>div{
+    width: 50%;
+}
