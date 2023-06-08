@@ -25,8 +25,9 @@ function Header(){
                         <div className='section_menu'>
                             <div>
                                 <span className='circle'>V</span>
-                                <span>Vahan Ghazaryan</span>                         
-                                <img src={vector} alt="" onClick={()=>{setShow(!show)}} className={show ? "menuVector" : null}/>        
+                                <span  onClick={()=>{setShow(!show)}} >Vahan Ghazaryan  
+                                    <img src={vector} alt=""className={show ? "menuVector" : null}/>  
+                                </span>                                
                             </div>                         
                            <Menu show={show}/>
                         </div>     

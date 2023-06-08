@@ -5,7 +5,7 @@ import dopal from '../../assets/images/dopal.png'
 
 
 export default function FullDescrip({ doctor, lang, translatePage }) {
-    console.log(doctor,translatePage)
+    
     return (
         <>
             <div className="fullDescrip_elem">

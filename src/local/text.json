@@ -90,6 +90,12 @@
             }
         }
     ],
+    
+    "myNotes":{
+            "ru":"Мои записи",
+            "ro":"Notitele mele"
+        },
+    
     "note": {
         "id": 6,
         "title": {
@@ -206,5 +212,90 @@
             "ru": "Дополнительно",
             "ro":"În plus"
         }
+    },
+    "balance":[
+       {
+        "img":"../../assets/images/visa.png",
+        "date": "08.06.2023",
+        "status":{
+            "ru":"Пополнение",
+            "ro":"Reaprovizionare"
+        },
+        "money": 560.00
+       },
+       {
+        "img":"../../assets/images/balance1.png",
+        "date": "08.06.2023",
+        "status":{
+            "ru":"Оплата за консультацию",
+            "ro":"Plata pentru consultatie"
+        },
+        "money": -900.00
+       },
+       {
+        "img":"../../assets/images/balance2.png",
+        "date": "08.06.2023",
+        "status":{
+            "ru":"Оплата за консультацию",
+            "ro":"Plata pentru consultatie"
+        },
+        "money": -900.00
+       },
+       {
+        "img":"../../assets/images/visa.png",
+        "date": "08.06.2023",
+        "status":{
+            "ru":"Пополнение",
+            "ro":"Reaprovizionare"
+        },
+        "money": 560.00
+       },
+       {
+        "img":"../../assets/images/visa.png",
+        "date": "08.06.2023",
+        "status":{
+            "ru":"Пополнение",
+            "ro":"Reaprovizionare"
+        },
+        "money": 560.00 
+       },
+       {
+        "img":"../../assets/images/balance3.png",
+        "date": "08.06.2023",
+        "status":{
+            "ru":"Оплата за консультацию",
+            "ro":"Plata pentru consultatie"
+        },
+        "money": -900.00
+       }
+    ],
+    "balanceTitle":{
+        "title":{
+            "ru":"Баланс",
+            "ro": "Echilibru"
+        },
+        "button":{
+            "ru":"Пополнить счет",
+            "ro": "Încărcați contul"
+        },
+        "history":{
+            "ru":"История платежей",
+            "ro": "istoria platilor"
+        }
+    },
+    "balanceButtons":{
+        "month":{
+            "ru":"За месяц",
+            "ro": "Pe luna"
+        },
+        "today":{
+            "ru": "За сегодня",
+            "ro": "Pentru astazi"
+        },
+        "allTime":{
+            "ru": "За все время",
+            "ro": "În tot acest timp"
+        }
     }
+
 }

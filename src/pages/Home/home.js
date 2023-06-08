@@ -2,10 +2,10 @@ import { useContext} from "react";
 import { TranslateContext } from "../../contexts/TranslateContext";
 
 import './home.css'
-import NoteSection from "./noteArticle";
+import NoteSection from "./NoteArticle";
 import Button from "../../components/Button/Button";
-import DoctorsList from "../../components/DoctosList/DoctorsList";
-import MainSection from "./mainSection";
+import DoctorsList from "../../components/DoctorsList/DoctorsList";
+import MainSection from "./MainSection";
 
 export default function Home() {
     const context = useContext(TranslateContext)

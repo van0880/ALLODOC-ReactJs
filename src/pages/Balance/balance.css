@@ -1,0 +1,66 @@
+.allBalance h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.allBalance p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #A0A0A0;
+    width: 25%;
+}
+
+.allBalance span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #4F4F4F;
+    width: 25%;
+}
+
+.allBalance img {
+    width: 50px;
+}
+
+.allBalance>div {
+    background-color: #F6F8FB;
+    padding: 20px 57px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.balanceBtn {
+    margin: 20px 0 45px;
+}
+
+.balanceTitle {
+    margin: 20px 0 48px;
+}
+
+.balance {
+    padding: 70px 0 300px;
+}
+
+.balance .title {
+    width: auto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+
+.balance h2 {
+    color: #219653;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    margin-right: 53px;
+}
+
+.balance h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #4F4F4F;
+}

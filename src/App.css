@@ -42,3 +42,7 @@ a{
   color: #4F4F4F;
   margin: 70px 0 20px;
 }
+.notesTitle~.noteList>.list{
+  width: 100%;
+  margin: 111px 0 20px;
+}

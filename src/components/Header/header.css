@@ -127,7 +127,8 @@ header {
     font-weight: 700;
     line-height: 17px;
     color: #787878;
-    margin-right: 10px;
+    cursor: pointer;
+   
 }
 .menuVector{
     transform: rotate(-180deg);
@@ -136,6 +137,7 @@ header {
     cursor: pointer;
     width: 16px;
     transition: 0.7s;
+    margin-left: 10px
 }
 .menu>a:hover {
     background-color: #C9C9C9;

@@ -4,7 +4,7 @@ import notifics from '../../assets/images/notif.png'
 export default function Notifics (){
     return (
         <div className='header_notifics'>
-             <Link to="/">
+             <Link to="/balance">
                 <span>3</span>
                 <img src={notifics} alt="notifics"/>
             </Link>

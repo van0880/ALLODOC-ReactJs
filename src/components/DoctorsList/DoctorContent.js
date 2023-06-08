@@ -3,6 +3,7 @@ import Button from '../Button/Button';
 import  './doctorsList.css';
 import StateNote from './StateNote';
 import ProfileDoctor from '../profileDoctor/ProfileDoctor'
+
 export default function DoctorContent({doctor, lang}){
     const date = useMemo(()=>new Date(),[])
     const experience = date.getFullYear() - doctor.excperience

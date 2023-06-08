@@ -1,4 +1,4 @@
-import HomeContent from "./homeContent";
+import HomeContent from "./HomeContent";
 import image  from "../../assets/images/woomen.png"
 
 

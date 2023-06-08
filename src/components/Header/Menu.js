@@ -7,7 +7,7 @@ export default function Menu({show}) {
     const context = useContext(TranslateContext)
     const menu = context[0].menu
     const lang = context[1]
-    console.log(menu[0].img)
+
     return (
         <div className={show ? "display menu" : "menu"}>
             {
