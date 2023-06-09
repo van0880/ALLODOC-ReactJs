@@ -9,5 +9,7 @@ export default function BalanceHistory({ data, lang }) {
                 {data.money > 0 ? "+" + data.money : data.money} &#8381;
             </h3>
         </div>
+        
     )
 }
+

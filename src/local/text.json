@@ -3,7 +3,7 @@
         {
             "id": 1,
             "link": "/",
-            "img": "../../assets/images/user.png",
+            "img": "https://thumbs.dreamstime.com/b/person-icon-black-background-person-solid-vector-eps-90447225.jpg",
             "text": {
                 "ro": "Profilul meu",
                 "ru": "Мой профиль"
@@ -12,7 +12,7 @@
         {
             "id": 2,
             "link": "/balance",
-            "img": "../../assets/images/user.png",
+            "img": "https://icon-library.com/images/moneybag-icon/moneybag-icon-18.jpg",
             "text": {
                 "ro": "Încărcați soldul",
                 "ru": "Пополнить баланс"
@@ -21,7 +21,7 @@
         {
             "id": 3,
             "link": "/note",
-            "img": "../../assets/images/user.png",
+            "img": "https://thumbs.dreamstime.com/b/frequently-asked-questions-faq-icon-dark-background-frequently-asked-questions-faq-icon-dark-background-simple-vector-icon-117121760.jpg",
             "text": {
                 "ro": "FAQ",
                 "ru": "FAQ"
@@ -30,7 +30,7 @@
         {
             "id": 4,
             "link": "/",
-            "img": "../../assets/images/user.png",
+            "img": "https://png.pngtree.com/png-vector/20190420/ourmid/pngtree-logout-vector-icon-png-image_963349.jpg",
             "text": {
                 "ro": "Ieși",
                 "ru": "Выйти"
@@ -215,7 +215,7 @@
     },
     "balance":[
        {
-        "img":"../../assets/images/visa.png",
+        "img":"https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
         "date": "08.06.2023",
         "status":{
             "ru":"Пополнение",
@@ -224,7 +224,7 @@
         "money": 560.00
        },
        {
-        "img":"../../assets/images/balance1.png",
+        "img":"https://docpro.com/technine_dev/img/testimonial_2.png",
         "date": "08.06.2023",
         "status":{
             "ru":"Оплата за консультацию",
@@ -233,7 +233,7 @@
         "money": -900.00
        },
        {
-        "img":"../../assets/images/balance2.png",
+        "img":"https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
         "date": "08.06.2023",
         "status":{
             "ru":"Оплата за консультацию",
@@ -242,7 +242,7 @@
         "money": -900.00
        },
        {
-        "img":"../../assets/images/visa.png",
+        "img":"https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
         "date": "08.06.2023",
         "status":{
             "ru":"Пополнение",
@@ -251,7 +251,7 @@
         "money": 560.00
        },
        {
-        "img":"../../assets/images/visa.png",
+        "img":"https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png",
         "date": "08.06.2023",
         "status":{
             "ru":"Пополнение",
@@ -260,7 +260,7 @@
         "money": 560.00 
        },
        {
-        "img":"../../assets/images/balance3.png",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Paul_Circle.png/1023px-Paul_Circle.png",
         "date": "08.06.2023",
         "status":{
             "ru":"Оплата за консультацию",
