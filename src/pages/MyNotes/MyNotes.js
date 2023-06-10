@@ -5,7 +5,6 @@ import { useMemo } from "react";
 
 export default function MyNotes() {
     const context = useContext(TranslateContext)
-
     const lang = useMemo(()=>context[1],[context])
     const doctors =  useMemo(()=>context[0].results,[context])
     const filterButtons = useMemo(()=>context[0].filterButtons,[context])
