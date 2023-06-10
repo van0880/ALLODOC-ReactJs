@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import Button from '../Button/Button';
 import  './doctorsList.css';
 import StateNote from './StateNote';
-import ProfileDoctor from '../profileDoctor/ProfileDoctor'
+import ProfileDoctor from '../ProfileDoctor/ProfileDoctor'
 
 export default function DoctorContent({doctor, lang}){
     const date = useMemo(()=>new Date(),[])

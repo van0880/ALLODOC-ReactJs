@@ -1,5 +1,5 @@
 import { useMemo } from "react"
-import ProfileDoctor from "../../components/profileDoctor/ProfileDoctor"
+import ProfileDoctor from "../../components/ProfileDoctor/ProfileDoctor"
 
 
 export default function DoctorName({ doctor, lang, translatePage }) {

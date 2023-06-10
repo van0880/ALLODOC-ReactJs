@@ -1,51 +1,20 @@
-import { useCallback,  useContext,  useEffect,  useReducer, useState } from "react"
+import { useCallback,  useContext,  useEffect, useState } from "react"
 import DoctorContent from "./DoctorContent"
 import { TranslateContext } from "../../contexts/TranslateContext"
+import { useDispatch, useSelector } from "react-redux"
 
-const reducer = function (state, action) {
-    const { type, payload } = action
-
-    switch (type) {
-        case "upcoming":
-            return {
-                ...state,
-                filtered: state.all.filter((item)=>{
-                    return new Date(item.near_date) < new Date() && item.near_date !== null
-                })
-            }
-        case "passed":
-            return {
-                ...state,
-                filtered: state.all.filter((item)=>{
-                    return new Date(item.near_date) > new Date() && item.near_date !== null
-                })
-            }
-        case "canceled":
-            return {
-                ...state,
-                filtered: state.all.filter(item=>item.near_date === null)
-            }
-        case "init":
-            return {
-                    all: payload,
-                    filtered: payload
-                }
-        default:
-            return null
-    }
-}
 export default function DoctorsList({ filterButtons, lang }) {
     const context = useContext(TranslateContext)
     const data = context[0].results
     const [activeButton, setActive] = useState(0)
+    const dispatch = useDispatch()
     const clickHandler = useCallback((obj, number) => {
         dispatch(obj)
         setActive(number)
     }, [])
+   
 
-    const [state, dispatch] = useReducer(reducer, {all: [], filtered:[]})
-
-    useEffect(()=>{
+    useEffect(()=>{ 
         if (data){
             dispatch({
                 type: "init",
@@ -53,7 +22,10 @@ export default function DoctorsList({ filterButtons, lang }) {
             }) 
         }
     },[data])
-    console.log(state)
+   
+    const doctors = useSelector((state)=>{
+        return state.docReducer.filtered
+    })
 
     return (
         <div className="noteList">
@@ -73,7 +45,7 @@ export default function DoctorsList({ filterButtons, lang }) {
             </div>
             <div className="list">
                 {
-                    state.filtered.map((elem) => {
+                    doctors.map((elem) => {
                         return <DoctorContent key={elem.id} doctor={elem} lang={lang} />
                     })
                 }

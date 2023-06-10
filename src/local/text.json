@@ -213,7 +213,7 @@
             "ro":"În plus"
         }
     },
-    "balance":[
+    "balanceData":[
        {
         "img":"https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
         "date": "08.06.2023",
@@ -221,7 +221,7 @@
             "ru":"Пополнение",
             "ro":"Reaprovizionare"
         },
-        "money": 560.00
+        "money": 520.00
        },
        {
         "img":"https://docpro.com/technine_dev/img/testimonial_2.png",
@@ -230,7 +230,7 @@
             "ru":"Оплата за консультацию",
             "ro":"Plata pentru consultatie"
         },
-        "money": -900.00
+        "money": -600.00
        },
        {
         "img":"https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
@@ -239,7 +239,7 @@
             "ru":"Оплата за консультацию",
             "ro":"Plata pentru consultatie"
         },
-        "money": -900.00
+        "money": -950.00
        },
        {
         "img":"https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
@@ -248,7 +248,7 @@
             "ru":"Пополнение",
             "ro":"Reaprovizionare"
         },
-        "money": 560.00
+        "money": 960.00
        },
        {
         "img":"https://www.kindpng.com/picc/m/719-7191738_round-png-image-man-transparent-png.png",
@@ -257,7 +257,7 @@
             "ru":"Пополнение",
             "ro":"Reaprovizionare"
         },
-        "money": 560.00 
+        "money": 460.00 
        },
        {
         "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Paul_Circle.png/1023px-Paul_Circle.png",
@@ -266,7 +266,7 @@
             "ru":"Оплата за консультацию",
             "ro":"Plata pentru consultatie"
         },
-        "money": -900.00
+        "money": -800.00
        }
     ],
     "balanceTitle":{
@@ -284,18 +284,18 @@
         }
     },
     "balanceButtons":{
-        "month":{
-            "ru":"За месяц",
-            "ro": "Pe luna"
+        "all":{
+            "ru":"Все",
+            "ro": "Toate"
         },
-        "today":{
-            "ru": "За сегодня",
-            "ro": "Pentru astazi"
+        "paid":{
+            "ru":"Оплаченный",
+            "ro": "Plătit"
         },
-        "allTime":{
-            "ru": "За все время",
-            "ro": "În tot acest timp"
-        }
+        "unpaid":{
+            "ru": "Неоплаченный",
+            "ro": "Neplătită"
+        }  
     }
 
 }

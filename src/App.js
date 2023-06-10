@@ -2,6 +2,7 @@ import './App.css';
 import { TranslateContext } from './contexts/TranslateContext';
 import { useMemo, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import { Provider } from 'react-redux';
 
 import dataDoctors from './local/data.json';
 import dataText from './local/text.json'
@@ -12,13 +13,12 @@ import Footer from './components/Footer/Footer';
 import DoctorProfile from './pages/DoctorsProfile/DoctorProfile'
 import MyNotes from './pages/MyNotes/MyNotes';
 import ScrollToTop from './contexts/ScrollToTop';
+import store from './store';
 
 function App() {
   const [language, setLanguage] = useState("ru")
-
- 
-  const data = useMemo(()=>{
-    const doctorsArray = dataDoctors.results.map((item)=>{
+  const data = useMemo(() => {
+    const doctorsArray = dataDoctors.results.map((item) => {
 
       let obj = {
         id: item.id,
@@ -31,27 +31,29 @@ function App() {
         title: item.user_categories[0].category.title,
         user: item.user_categories[0].category
       }
-    
+
       return obj
     })
-    
-    return {...dataText, results: doctorsArray}
-  },[])
-  console.log(data)
+
+    return { ...dataText, results: doctorsArray }
+  }, [])
+
   return (
-      <TranslateContext.Provider value={[data, language, setLanguage]}>
-        <ScrollToTop/>
-          <Header/>
-            <Routes>
-              <Route path='/' element={<Home/>}/>
-              <Route path='/doctors/:userId'  element={<DoctorProfile/>}/>
-              <Route path='/balance' element={<Balance/>}/>
-              <Route path='/notes' element={<MyNotes/>}/>
-              <Route path='*' element={<Balance/>}/>
-            </Routes>
-          <Footer/>
-      </TranslateContext.Provider>
-    
+    <TranslateContext.Provider value={[data, language, setLanguage]}>
+      <Provider store={store}>
+        <ScrollToTop />
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/doctors/:userId' element={<DoctorProfile />} />
+          <Route path='/balance' element={<Balance />} />
+          <Route path='/notes' element={<MyNotes />} />
+          <Route path='*' element={<Balance />} />
+        </Routes>
+        <Footer />
+      </Provider>
+    </TranslateContext.Provider>
+
   );
 }
 

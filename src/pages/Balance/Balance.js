@@ -1,15 +1,37 @@
-import { useContext } from "react"
+import { useCallback, useContext, useEffect, useState } from "react"
 import { TranslateContext } from "../../contexts/TranslateContext"
 import Button from "../../components/Button/Button"
 import BalanceHistory from "./BalanceHistory"
 import './balance.css'
+import { useDispatch, useSelector } from "react-redux"
 
 export default function Balance() {
     const context = useContext(TranslateContext)
     const titleText = context[0].balanceTitle
     const buttons = context[0].balanceButtons
-    const data = context[0].balance
+    const data = context[0].balanceData
     const lang = context[1]
+    const [activeButton, setActive] = useState(1)
+
+    const dispatch = useDispatch()
+    const clickHandler = useCallback((obj, number) => {
+        dispatch(obj)
+        setActive(number)
+    }, [dispatch, setActive])
+
+    useEffect(() => {
+        if (data) {
+            dispatch({
+                type: "all",
+                payload: data,
+            })
+        }
+    }, [data])
+
+    const balanceList = useSelector((state) => {
+        return state.balanceRed.filtered
+    })
+
     return (
         <main>
             <div className="balance">
@@ -21,19 +43,22 @@ export default function Balance() {
                     </div>
                     <h5>{titleText.history[lang]}</h5>
                     <div className="btn balanceBtn">
-                        <button>
-                            {buttons.month[lang]}
+                        <button onClick={() => { clickHandler({ type: "all", payload: data }, 1) }}
+                            className={activeButton === 1 ? "activeBtn" : null}>
+                            {buttons.all[lang]}
                         </button>
-                        <button>
-                            {buttons.today[lang]}
+                        <button onClick={() => { clickHandler({ type: "paid", payload: 1 }, 2) }}
+                            className={activeButton === 2 ? "activeBtn" : null}>
+                            {buttons.paid[lang]}
                         </button>
-                        <button>
-                            {buttons.allTime[lang]}
+                        <button onClick={() => { clickHandler({ type: "unpaid", payload: 1 }, 3) }}
+                            className={activeButton === 3 ? "activeBtn" : null}>
+                            {buttons.unpaid[lang]}
                         </button>
                     </div>
                     <div className="allBalance">
                         {
-                            data.map((elem, i) => {
+                            balanceList.map((elem, i) => {
                                 return <BalanceHistory key={i} data={elem} lang={lang} />
                             })
                         }
