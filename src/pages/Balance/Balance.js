@@ -4,6 +4,8 @@ import Button from "../../components/Button/Button"
 import BalanceHistory from "./BalanceHistory"
 import './balance.css'
 import { useDispatch, useSelector } from "react-redux"
+import { BalanceActions } from "../../store/actions"
+import { BalanceSelectors } from "../../store/selectors"
 
 export default function Balance() {
     const context = useContext(TranslateContext)
@@ -12,23 +14,19 @@ export default function Balance() {
     const [activeButton, setActive] = useState(1)
 
     const dispatch = useDispatch()
-    const clickHandler = useCallback((obj, number) => {
-        dispatch(obj)
+    
+    const clickHandler = useCallback((red, number) => {
+        dispatch(red)
         setActive(number)
     }, [dispatch, setActive])
 
     useEffect(() => {
         if (balanceData) {
-            dispatch({
-                type: "all",
-                payload: balanceData,
-            })
+            dispatch(BalanceActions.allBalance(balanceData))
         }
-    }, [balanceData])
-
-    const balanceList = useSelector((state) => {
-        return state.balanceRed.filtered
-    })
+    }, [balanceData, dispatch])
+  
+    const balanceList = useSelector(BalanceSelectors.filteredBalance)
 
     return (
         <main>
@@ -41,15 +39,15 @@ export default function Balance() {
                     </div>
                     <h5>{balanceTitle.history[lang]}</h5>
                     <div className="btn balanceBtn">
-                        <button onClick={() => { clickHandler({ type: "all", payload: balanceData }, 1) }}
+                        <button onClick={() => { clickHandler(BalanceActions.allBalance(balanceData), 1) }}
                             className={activeButton === 1 ? "activeBtn" : null}>
                             {balanceButtons.all[lang]}
                         </button>
-                        <button onClick={() => { clickHandler({ type: "paid", payload: 1 }, 2) }}
+                        <button onClick={() => { clickHandler(BalanceActions.paidBalance(1), 2) }}
                             className={activeButton === 2 ? "activeBtn" : null}>
                             {balanceButtons.paid[lang]}
                         </button>
-                        <button onClick={() => { clickHandler({ type: "unpaid", payload: 1 }, 3) }}
+                        <button onClick={() => { clickHandler(BalanceActions.unPaidBalance(1), 3) }}
                             className={activeButton === 3 ? "activeBtn" : null}>
                             {balanceButtons.unpaid[lang]}
                         </button>

@@ -1,25 +1,26 @@
+import { BalanceTypes } from "../types"
 const init_state_balance = {all: [], filtered:[]}
 
-const balanceReducer = (state = init_state_balance, action)=>{
-    
-    const { type, payload } = action
+
+export default function BalanceReducer(state = init_state_balance, action) {  
+    const {type, payload} = action
   
     switch (type) {
-        case "paid":
+        case BalanceTypes.PAID:
             return {
                 ...state,
                 filtered: state.all.filter((item)=>{
                     return item.money > 0
                 })
             }
-        case "unpaid":
+        case BalanceTypes.UNPAID:
             return {
                 ...state,
                 filtered: state.all.filter((item)=>{
                     return item.money < 0
                 })
             }
-        case "all":
+        case BalanceTypes.ALL:
             return {
                     all: payload,
                     filtered: payload
@@ -28,5 +29,3 @@ const balanceReducer = (state = init_state_balance, action)=>{
             return state
     }
 }
-
-export default balanceReducer

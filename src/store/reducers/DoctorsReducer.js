@@ -1,37 +1,39 @@
-const init_state_doctors = {all: [], filtered:[]}
+import { DoctorTypes } from "../types";
 
-const doctorsReducer = (state = init_state_doctors, action)=>{
-    
+const init_state_docs = {all: [], filtered: []}
+
+
+export default function DoctorsReducer(state = init_state_docs, action) {
     const { type, payload } = action
-  
     switch (type) {
-        case "upcoming":
+        case DoctorTypes.UPCOMING:
             return {
                 ...state,
-                filtered: state.all.filter((item)=>{
+                filtered: state.all.filter((item) => {
                     return new Date(item.near_date) < new Date() && item.near_date !== null
                 })
             }
-        case "passed":
+        case DoctorTypes.PASSED:
             return {
                 ...state,
-                filtered: state.all.filter((item)=>{
+                filtered: state.all.filter((item) => {
                     return new Date(item.near_date) > new Date() && item.near_date !== null
                 })
             }
-        case "canceled":
+        case DoctorTypes.CANCELED:
             return {
                 ...state,
-                filtered: state.all.filter(item=>item.near_date === null)
+                filtered: state.all.filter(item => item.near_date === null)
             }
-        case "init":
+        case DoctorTypes.INIT:
             return {
-                    all: payload,
-                    filtered: payload
-                }
-        default:
+                all: payload,
+                filtered: payload
+            }
+        default :
             return state
+
     }
+
 }
 
-export default doctorsReducer
