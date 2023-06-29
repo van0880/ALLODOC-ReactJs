@@ -1,0 +1,493 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "link": "/",
+            "img": "https://thumbs.dreamstime.com/b/person-icon-black-background-person-solid-vector-eps-90447225.jpg",
+            "text": "Profilul meu"
+        },
+        {
+            "id": 2,
+            "link": "/balance",
+            "img": "https://icon-library.com/images/moneybag-icon/moneybag-icon-18.jpg",
+            "text": "Încărcați soldul"
+        },
+        {
+            "id": 3,
+            "link": "/note",
+            "img": "https://thumbs.dreamstime.com/b/frequently-asked-questions-faq-icon-dark-background-frequently-asked-questions-faq-icon-dark-background-simple-vector-icon-117121760.jpg",
+            "text": "FAQ"
+        },
+        {
+            "id": 4,
+            "link": "/",
+            "img": "https://png.pngtree.com/png-vector/20190420/ourmid/pngtree-logout-vector-icon-png-image_963349.jpg",
+            "text": "Ieși"
+        }
+    ],
+    "navMenu": [
+        {
+            "id": 1,
+            "link": "/",
+            "text": "Cum se utilizează?"
+        },
+        {
+            "id": 2,
+            "link": "/notes",
+            "text": "Notitele mele"
+        },
+        {
+            "id": 3,
+            "link": "/balance",
+            "text": "conculta un medic?"
+        }
+    ],
+    "homeSection": {
+        "title": "<span>Consultatii online</span> de la medici specialisti 24/7",
+        "text": "Consultați-vă <b>acum</b> sau cu <b>programare de pe computer</b> sau prin aplicația noastră disponibilă în <a href='https://play.google.com/' target='blank'>App Store</a> și <a href='https://play.google.com/' target='blank'>Google Play</a>",
+        "buttons": {
+            "link1": "/doctors",
+            "button1": "Inscrie-te",
+            "link2": "/",
+            "button2": "Cum functioneaza?"
+        }
+    },
+    "myNotes": "Notitele mele",
+    "note": {
+        "id": 6,
+        "title": "conculta un medic",
+        "description": "Peste 1500 de medici și peste 50 de specializări diferite",
+        "text1": "Recepție la un moment convenabil pentru dvs., fără o vizită la clinică",
+        "text2": "Medici cu peste 8 ani de experienta",
+        "text3": "Vom explica clar cauza bolii și vom oferi o recomandare detaliată.",
+        "button": "Inscrie-te",
+        "noteButton": "notitele mele"
+    },
+    "filterButtons": {
+        "button1": "În viitor",
+        "button2": "Trecut",
+        "button3": "Anulat"
+    },
+    "stateButton": {
+        "true": "a avut loc",
+        "false": "Programat"
+    },
+    "footerNav": [
+        {
+            "link": "/",
+            "text": "Cum se utilizează"
+        },
+        {
+            "link": "/",
+            "text": "Întrebări frecvente"
+        },
+        {
+            "link": "/",
+            "text": "Pentru medici"
+        },
+        {
+            "link": "/",
+            "text": "Despre serviciu"
+        },
+        {
+            "link": "/",
+            "text": "Contacte"
+        },
+        {
+            "link": "/",
+            "text": "Termeni de utilizare"
+        }
+    ],
+    "footerText": "Consultatii online ale medicilor specialisti, ce ofera acest serviciu. Pe aplicația noastră web și mobilă veți găsi medici experți care vă vor oferi asistență personalizată online 24/7",
+    "doctorProfile": {
+        "path": "Doctori / Profilul Medicului",
+        "consultation": " / consultare",
+        "nextEntry": "Următoarea intrare",
+        "education": "Educaţie",
+        "specializes": "Specializată în tratament",
+        "additionally": "În plus"
+    },
+    "balanceData": [
+        {
+            "img": "https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
+            "date": "08.06.2023",
+            "status": "Reaprovizionare",
+            "money": 520.00
+        },
+        {
+            "img": "https://docpro.com/technine_dev/img/testimonial_2.png",
+            "date": "08.06.2023",
+            "status": "Plata pentru consultatie",
+            "money": -600.00
+        },
+        {
+            "img": "https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
+            "date": "08.06.2023",
+            "status": "Plata pentru consultatie",
+            "money": -950.00
+        },
+        {
+            "img": "https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
+            "date": "08.06.2023",
+            "status": "Reaprovizionare",
+            "money": 960.00
+        },
+        {
+            "img": "https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
+            "date": "08.06.2023",
+            "status": "Reaprovizionare",
+            "money": 460.00
+        },
+        {
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Paul_Circle.png/1023px-Paul_Circle.png",
+            "date": "08.06.2023",
+            "status": "Plata pentru consultatie",
+            "money": -800.00
+        }
+    ],
+    "balanceTitle": {
+        "title": "Echilibru",
+        "button": "Încărcați contul",
+        "history": "istoria platilor"
+    },
+    "balanceButtons": {
+        "all": "Toate",
+        "paid": "Plătit",
+        "unpaid": "Neplătită"
+    },
+    "viewEntryButton": "Vedeți intrarea",
+    "viewRulingButton": "Vedeți intrarea",
+    "minute": "minute",
+    "doctors":  [
+        {
+            "id": 793,
+            "first_name": "Andrian",
+            "last_name": "Chiriac",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/10/foto_profil_1_hxKaH8hcsq.jpg",
+            "date_of_birth": "1978-02-15",
+            "user_categories": [
+                {
+                    "id": 1397,
+                    "category": {
+                        "id": 12,
+                        "title": "Endocrinolog",
+                        "description": "Se ocupă de problemele hormonale și complicațiile acestora",
+                        "full_description": "<h3><strong>Ce tratează medicul endocrinolog ?</strong></h3><p><br></p><p>Un <strong>endocrinolog </strong>este un medic care se ocupă de diagnosticul și tratamentul problemelor hormonale și complicațiile acestora. Prin urmare, acesta este capabil să evalueze funcționarea sistemului hormonal și să trateze tulburările pe care le poate genera. Într-adevăr, hormonii controlează întreagă funcționare a organismului. Medicul endocrinolog va verifica buna funcționare a acestor sisteme de reglare, cantitatea acestor hormoni și va trata orice patologie legată de dezechilibrul hormonal.</p><p><br></p><h3><strong>Ce face medicul endocrinolog?</strong></h3><p><br></p><p><strong>Endocrinologul </strong>consultă pacienți de sex masculin și feminin de toate vârstele. Fie că este vorba despre tinere adolescente, bărbați de vârstă mijlocie sau chiar bebeluși.</p><p><br></p><p>Medicul endocrinolog își ascultă pacientul, îl auscultează dacă este necesar, dar în majoritatea cazurilor îi&nbsp;prescrie analizele de sânge, urină, radiografie, scanner etc., pentru a stabili cel mai bine diagnosticul și pentru a prescrie tratamentul corect.&nbsp;</p><p><br></p><p>Uneori, pacientul va trebui doar să-și schimbe stilul de viață pentru a-și pune în ordine sistemul hormonal ca să nu mai sufere de neplăcerile provocate de acesta. Un simplu exemplu este excesul de colesterol.</p><p><br></p><h3><strong style=\"background-color: rgb(255, 255, 255);\">Ce tratează medicul endocrinolog?</strong></h3><p><br></p><p>Probleme de sanatate tratate de <strong>endocrinolog </strong>sunt urmatoarele : diabetul, distiroidismul (adică o disfuncție a glandei tiroide), noduli și gușă, hiperparatiroidismul primar (o boală endocrină datorată unei dereglări a glandelor paratiroide), obezitatea, hipersecreție sau o lipsă de secreție hormonală,&nbsp;problemele suprarenale, bolile hormonale legate de infertilitate, <span style=\"background-color: rgb(255, 255, 255); color: rgb(43, 43, 43);\">patologiile hipotalamo-hipofizare,&nbsp;a glandelor suprarenale, paratiroide, dereglările metabolismului de calciu și fosfor.</span></p>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/thyroid_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 793
+                }
+            ],
+            "rating": 5,
+            "near_date": "2023-04-25",
+            "experience": "<p>Medic endocrinolog maturi și copii, categorie superioară de calificare, experiență profesională 17 ani.</p><p><br></p><ul><li>Diagnosticul și tratamentul diabetului zaharat la maturi și copii, inclusiv program de educație în diabet și utilizarea noilor tehnologii: senzori de glicemie și pompe de insulină;</li><li>Tratamentul obezității cu complicațiile ei și consiliere nutrițională;</li><li>Diagnosticul și tratamentul patologiilor glandei tiroide;</li><li>Evaluarea și tratamentul copiilor cu probleme de creștere și pubertate;</li><li>Diagnosticul, tratamentul și supravegherea pacienților cu maladii endocrine rare, inclusiv în bolile genetice: patologiile hipotalamo-hipofizare,&nbsp;a glandelor suprarenale, paratiroide, dereglările metabolismului de calciu și fosfor.</li></ul><p><br></p><p>În timul consultației trebuie să fiți gata de a comunica datele dvs. despre simptomele prezentate, istoricul bolii, tratamentul administrat și rezultatele investigațiilor efectuate. În rezultatul consultației veți putea beneficia de asistență calificată pentru clarificarea diagnosticului, discuția planului de examinare, interpretarea rezultatelor investigațiilor, evaluarea schemelor de tratament, educație terapeutică și consiliere nutrițională, urmărire în dinamică.</p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! </span>Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</p>",
+            "excperience_start_year": 2005,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 855,
+            "first_name": "Zinaida",
+            "last_name": "Sârbu",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/03/31/foto_mea.jpg",
+            "date_of_birth": "1965-03-01",
+            "user_categories": [
+                {
+                    "id": 1375,
+                    "category": {
+                        "id": 4,
+                        "title":"Obstetrician-Ginecolog",
+                        "description":"Sănătatea reproductivă a femeii",
+                        "full_description":"<h3><strong>Ce tratează medicul obstetrician-ginecolog ?</strong></h3><p><br></p><p><strong>Ginecologia</strong> <span style=\"background-color: rgb(255, 255, 255);\">este ramura medicinei care se ocupă cu fiziologia și tratarea afecțiunilor aparatului genital feminin.</span> Medicul <strong>ginecolog </strong>este deci interlocutorul privilegiat al femeilor în fazele cheie ale vieții lor sexuale, de la pubertate până la menopauză. El se ocupă de probleme legate de menstruație sau menopauză, contracepție, boli ale sânului, uterului, ovarelor, trompelor uterine și organelor genitale externe, precum și de cancerele feminine.</p><p><br></p><p>Ginecologia <strong>obstetrică </strong>se referă la monitorizarea sarcinii și a nașterii. Un medic <strong>obstetrician</strong> are grijă de femeie dar și de copilul pe care îl poartă, asistat de o moașă și/sau de o asistentă. El efectuează examinările și stabilește diagnosticul prenatal.</p><h3><br></h3><p>Medicul <strong>obstetrician-ginecolog</strong> beneficiază de asemenea de o pregătire extinsă în chirurgie permițându-i să efectueze intervenții în timpul nașterii dar și în contextul altor afecțiuni, fie că este vorba despre o tumoare benignă (chist mamar, endometrioză, etc.) sau canceroasă (sân, uter, ovare), în chirurgia funcțională uro-ginecologică sau pelviană.</p><h3><br></h3><h3><strong>Ce&nbsp;face medicul obstetrician-ginecolog?</strong></h3><p><br></p><p>În colaborare cu echipa sa și în special cu moașele, monitorizează sarcina și dezvoltarea armonioasă a fătului. El supraveghează și intervine, dacă este necesar, în timpul nașterii. În caz de subfertilitate sau infertilitate, cuplurile care intenționează să aibă un copil pot găsi o soluție cu el prin medicină reproductivă : stimularea ovulației, inseminarea intrauterină, fertilizare în vitro etc. În timpul sarcinii se ocupă de diagnosticul prenatal, care constă în depistarea înainte de naștere a unei posibile patologii care afectează copilul nenăscut : malformație sau boală genetică. Pentru a stabili dacă fătul este purtător de o patologie, se pot face diferite tipuri de examinări : ecografie fetală și ecocardiografie, amniocenteză etc. Dincolo de urmărirea sarcinii și a actelor chirurgicale ale acesteia, medicul ginecolog-obstetrician poate efectua și alte intervenții medicale (monitorizarea colului uterin, plasarea implanturilor contraceptive, avort).</p>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/femenine_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 855
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-07-16",
+            "experience": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Medic obstetrician-ginecolog maturi și copii, Doctor în științe medicale,conferențiar universitar, experiență profesională 31 ani.</span></p><p><br></p><ul><li><span style=\"background-color: transparent;\">Infertilitate</span></li><li><span style=\"background-color: transparent;\">Hiperplazie de endometru</span></li><li><span style=\"background-color: transparent;\">Endometrioză</span></li><li><span style=\"background-color: transparent;\">Sindromul ovarelor polichistice</span></li><li><span style=\"background-color: transparent;\">Hiperandrogenism</span></li><li><span style=\"background-color: transparent;\">Insuficientă ovariană prematură</span></li><li><span style=\"background-color: transparent;\">Sindrom climacteric menopauzal</span></li><li><span style=\"background-color: transparent;\">Dismenoree</span></li><li><span style=\"background-color: transparent;\">Miom uterin</span></li><li><span style=\"background-color: transparent;\">Displazie hormonală a glandelor mamare</span></li></ul><p><br></p><p><em style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Atenție</em><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1991,
+            "price": 750.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 785,
+            "first_name": "Irina",
+            "last_name": "Triboi",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/14/irina_triboi.png",
+            "date_of_birth": "1987-12-08",
+            "user_categories": [
+                {
+                    "id": 1417,
+                    "category": {
+                        "id": 2,
+                        "title": "Pediatru",
+                        "description":"Medic generalist care lucrează cu copii și adolescenți",
+                        "full_description": "<p>Medicul <strong>pediatru</strong> este specialistul care <span style=\"background-color: rgb(255, 255, 255);\">se ocupă cu studiul și tratarea bolilor întâlnite la copii și adolescenți. Acesta joacă un rol important </span>în monitorizarea dezvoltării fiziologice și psihologice a copiilor și adolescenților. El se ocupă de asemenea de prevenirea, diagnosticul și tratamentul patologiilor copilăriei care pot afecta sănătatea copilului.</p><p><br></p><h3><strong>Ce face un medic pediatru?</strong></h3><p><br></p><p>Medicul <strong>Pediatru</strong> este interlocutorul privilegiat al părinților. Acesta <span style=\"background-color: rgb(255, 255, 255);\">îi sfătuiește cu privire la alimentație, somn, igienă, prevenirea accidentelor și alte momente importante pe parcursul creșterii copilului. De asemenea, este responsabil pentru depistarea precoce a anumitor patologii și urmărirea vaccinării. În cazul în care copilul prezintă simptome de boli, medicul întreabă detalii despre afecțiunea în cauză, efectuează dacă este necesar un examen clinic și prescrie examinări suplimentare (analize de sânge, analize de urină, ecografii etc.), pentru a determina tratamentul adaptat contextului clinic și vârstei copilului.</span></p><p><br></p><h3><strong>Ce tratează un medic pediatru?</strong></h3><p><br></p><p>Pe lângă urmărirea regulată pe care o asigură, medicul pediatru își vede pacienții din mai multe motive.</p><p><br></p><p>Enumerăm mai jos cele mai des întâlnite motive:</p><ul><li>probleme infecțioase, cum ar fi meningita;</li><li>otrăvire;</li><li>alergiile;</li><li>trauma;</li><li>tulburări metabolice;</li><li>probleme de dezvoltare;</li><li>deficite motorii;</li><li>dificultăți de învățare;</li><li>boli inflamatorii;</li><li>etc.</li></ul>",
+                        "image": "https://api.allodoc.md/media/static/images/2021/12/17/Group_25.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 785
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-08-17",
+            "experience": "<p>Medic pediatru copii, experiență profesională 10 ani. </p><p><br></p><p>Semnele generale de pericol la copil care sînt considerate urgențe și care nu pot fi consultate la distanță:</p><ol><li>Copilul nu poate bea sau suge piept;</li><li>Vomită după fiecare alimentație;</li><li>Are&nbsp;convulsii;</li><li>E letargic (foarte somnolent) sau inconştient;</li><li>Are febră (peste 38 C) sau temperatură sub 36 C;&nbsp;</li><li>Devine brusc palid sau se învineţeşte;&nbsp;</li><li>Se mişcă mai puţin decât de obicei;</li><li>Plânge fără întrerupere şi refuză să fie alăptat.</li><li>Respiră greu, zgomotos sau are respitație accelerată:&nbsp;</li></ol><ul><li>pentru copilul până la&nbsp;2 luni, mai mult de 60 de respirații pe minut;</li><li>copilul cu vârstă cuprinsă între 2 luni și 12 luni, mai mult de 50 de respirații pe minut;&nbsp;</li><li>copilul de la 12 luni până la 5 ani, mai mult de 40 de respirații pe minut.</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 2012,
+            "price": 350.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 809,
+            "first_name": "Olimpia",
+            "last_name": "Gherman",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/17/gherman_bis2-min.png",
+            "date_of_birth": "1980-07-23",
+            "user_categories": [
+                {
+                    "id": 1402,
+                    "category": {
+                        "id": 32,
+                        "title": "Pneumolog",
+                        "description":"Se ocupă de diagnosticul și tratamentul bolilor sistemului respirator",
+                        "full_description": "<h3><strong>Ce tratează medicul pneumolog ?</strong></h3><p><br></p><p><strong>Pneumologul</strong> este medicul specializat în tratarea bolilor respiratorii și infecțiilor pulmonare ce afectează următoarele organe : plămânii, bronhii, pleura (care constituie „învelișul” plămânilor și cuprinde 2 straturi, pleura viscerală și pleura parietală).</p><p><br></p><h3><strong>Ce face medicul pneumolog?</strong></h3><p><br></p><p>Pentru ajunge la un diagnostic și a identifica originea tulburărilor, medicul pneumolog efectuează următorii pași :</p><ul><li>chestionează pacientul pentru a află natura tulburărilor, data apariției și modul lor de declanșare (efort, frig etc.), gradul de disconfort resimțit;</li><li>întreabă despre istoricul pacientului, factorii de risc ai acestuia (fumat, expunerea profesională etc.), istoricul familial;</li><li>pune întrebări despre mediu și stilul de viață (loc de trai, animale de companie, călătorii recente etc.);</li><li>practică o primă auscultație, folosind un stetoscop;</li><li>poate recurge la examinări suplimentare (radiografie, de exemplu).</li></ul><p><br></p><h3><strong>Când să consultați un pneumolog?</strong></h3><p><br></p><p>Medicul pneumolog poate trata multe patologii cum ar fi :</p><ul><li>astm;</li><li>alergii respiratorii;</li><li>insuficiență respiratorie ;</li><li>boală pulmonară obstructivă cronică ;</li><li>hipertensiune arterială pulmonară;</li><li>embolie pulmonară ;</li><li>pleurezie;</li><li>tulburări respiratorii legate de boli sistemice (vasculită, conectivită, sarcoidoză etc.);</li><li>boli infecțioase, cum ar fi tuberculoză , pneumonia sau abcesul pulmonar;</li><li>boli genetice, cum ar fi fibroză chistică (fibroză chistică);</li><li>tulburări de somn (apnee, sforăit);</li><li>boli respiratorii profesionale, datorate expunerii la anumite substanțe (azbest, chimicale, praf etc.);</li><li>boli legate de fumat (emfizem, bronșită cronică etc.);</li><li>boli neuromusculare cu simptome respiratorii;</li><li>resuscitare, terapie intensivă.</li></ul>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/15/vectorpaint_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 809
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-17",
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255);\">Medic pneumolog maturi , experiență profesională 18 ani, care se ocupă cu tratamentul patologiilor respiratorii :</span></p><p><br></p><ul><li>Pneumonii</li><li>Bronșite</li><li>Astm bronșic</li><li>Tuberculoză</li><li>Bronșită cronică obstructivă</li><li>Covid-19</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>﻿Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 2004,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 786,
+            "first_name": "Angela",
+            "last_name": "Selivanov",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/18/angela_selivanov_bis-min.png",
+            "date_of_birth": "1976-04-23",
+            "user_categories": [
+                {
+                    "id": 1393,
+                    "category": {
+                        "id": 1,
+                        "title": "Internist, Terapeut",
+                        "description":"Medic generalist care lucrează cu adulți",
+                        "full_description":"<h3><strong>Ce tratează medicul internist ?</strong></h3><p><br></p><p><span style=\"color: rgb(43, 43, 43);\">Medicul&nbsp;</span><strong style=\"color: rgb(43, 43, 43);\">internist</strong><span style=\"color: rgb(43, 43, 43);\">&nbsp;sau&nbsp;</span><strong style=\"color: rgb(43, 43, 43);\">terapeut&nbsp;</strong><span style=\"color: rgb(43, 43, 43);\">este medicul pe care îl consultăm cel mai des în timpul vieții noastre. El tratează problemele de sănătate de zi cu zi, cunoscând istoricul nostru medical și familial.&nbsp;</span></p><p><span style=\"color: rgb(43, 43, 43);\">&nbsp;</span></p><p><span style=\"color: rgb(43, 43, 43);\">Medicul&nbsp;</span><strong style=\"color: rgb(43, 43, 43);\">internist</strong><span style=\"color: rgb(43, 43, 43);\">&nbsp;asigură urmărirea personalizată a pacienților săi prin prescrierea de tratamente adecvate. Le poate redirecționa către medici de specialitate atunci când simptomele pacientului nu mai sunt sub controlul său. Pacientul trebuie să treacă mai întâi prin medicul său curant înainte de a consulta un specialist (cu excepția ginecologului, oftalmologului, psihiatrului și stomatologului).</span></p><p><span style=\"color: rgb(43, 43, 43);\">&nbsp;</span></p><p><span style=\"color: rgb(43, 43, 43);\">Consultațiile medicului încep cu un interviu cu pacientul pentru a afla motivele vizitei acestuia (durere, disconfort, febră etc.). Apoi, medicul trece la examinarea medicală a pacientului prin inspecție generală, palpare sau auscultație, folosind instrumentele medicale . Această rutină medicală include măsurarea tensiunii arteriale cu ajutorul unui tensiometru, ascultarea inimii cu un stetoscop, palparea ganglionilor limfatici etc. De asemenea, poate privi starea faringelui și amigdalelor pacientului folosind o spatulă, precum și cavitatea urechilor sale. De asemenea, medicul curant este autorizat să recomande tratament medicamentos (tablete, injecții și perfuzii), inclusiv vaccinuri.</span></p>",
+                        "image": "https://api.allodoc.md/media/static/images/2021/12/17/doctor-stethoscope_2.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 786
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-10-20",
+            "experience": "<p>Medic internist maturi, categorie superioară de calificare, experiență profesională 23 ani.</p><p><br></p><ul><li>Consultul și tratamentul pacienților cu multiple comorbidități, abordare multidisciplinară:</li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Hepatită cronică și ciroză hepatică</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Infecții respiratorii&nbsp;</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Gastrită, ulcer</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Hipertensiune și boli cardiace</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Boli articulare</span></li><li>Consultul și tratamentul pacienților suspecți/confirmați pozitiv COVID-19, conduința pacienților cu consecințe ale infecției SARS-CoV-2</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1999,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 822,
+            "first_name": "Nadejda",
+            "last_name": "Corobcean",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/17/dfgdfgdf-min.png",
+            "date_of_birth": "1976-12-26",
+            "user_categories": [
+                {
+                    "id": 1415,
+                    "category": {
+                        "id": 33,
+                        "title":"Oncolog",
+                        "description":"Se ocupă cu diagnosticarea, tratamentul si prevenirea bolii canceroase umane",
+                        "full_description": "<p><strong style=\"background-color: white;\">Oncologul </strong><span style=\"background-color: white;\">este medicul care realizează managementul bolilor oncologice: tratamentul chirurgical, tratamentul cu radioterapie si tratament cu medicamente, folosind chimioterapie, hormonoterapie, imunoterapie și terapii țintite. De asemenea, se ocupă cu managementul problemelor legate de boala oncologica sau de efectele adverse ale tratamentelor: durerea, oboseală, probleme in nutriție, digestie, respirație. </span></p><p><br></p><h3><strong>Ce face și ce tratează un medic oncolog?</strong></h3><p>&nbsp;</p><p>Rolul <strong>medicului oncolog</strong> este de a identifica tipul tumorii,&nbsp;severitatea și gradul de răspândire a acesteia. Odată ce a fost pus diagnosticul de cancer, el propune o strategie terapeutică, discută cu specialiștii care implicate I tratamentul tumorilor (chirurgi, patologi, radiologi, radioterapeuți) din cadrul consiliilor multidisciplinare&nbsp;pentru a se asigura că toate opțiunile posibile sunt luate în considerare. Când se alege tratamentul medical, medicul oncolog: prescrie medicamente, care urmează a fi administrate sub formă de cicluri, verifică eficacitatea acestora prin investigații clinice și imagistice, urmărește posibilele efecte secundare ale acestora.</p><p>&nbsp;</p><p>Cele mai frecvente tipuri de cancer sunt:</p><ul><li> cancer de sân&nbsp;</li><li> cancer de colon și rect&nbsp;</li><li> cancer de plămâni&nbsp;</li><li> cancer de prostată&nbsp;</li><li> cancer de col uterin</li></ul><p><br></p><p>Deși cancerul poate afecta pe oricine, la orice vârstă, inclusiv în copilărie, există câțiva factori de risc recunoscuți pentru cancer:</p><ul><li>&nbsp;factori genetici, în special pentru cancerul de sân, ovar sau de colon;</li><li>&nbsp;consumul de tutun;</li><li>&nbsp;expunerea cronică la radiații sau la anumite substanțe (azbest, chimicale, pesticide);</li><li>&nbsp;anumite virusuri (cancer de col uterin, cancer de stomac, cancer de ficat).</li></ul>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/17/vectorpaint_2_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 822
+                }
+            ],
+            "rating": 5,
+            "near_date": "2023-05-01",
+            "experience": "<p>Medic oncolog, doctor în științe medicale, conferențiar universitar, experiență profesională 18 ani.</p><p><br></p><ul><li><span style=\"background-color: rgb(255, 255, 255);\">Diagnosticul complet al tumorilor maligne (aprecierea tipului histologic și stadiului clinic al bolii)</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Selectarea algoritmului de tratament personalizat specific pentru fiecare pacient (planul de tratament personalizat)</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Determinarea indicațiilor pentru Tratament chirurgical, Terapia targhet (terapia țintită), Imunoterapie, Radioterapie</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Testarea moleculară a țesutului tumoral și alegerea tratamentului individual în funcție de profilul molecular-genetic</span></li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! </span>Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</p>",
+            "excperience_start_year": 2004,
+            "price": 400.0,
+            "country_code": {
+                "id": 8,
+                "icon": "https://api.allodoc.md/media/static/images/2022/02/02/flag_romania-min.png",
+                "code": "+40",
+                "digit_count": 9
+            }
+        },
+        {
+            "id": 790,
+            "first_name": "Ludmila",
+            "last_name": "Surățel",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/19/ludmila_suratel_2-min.png",
+            "date_of_birth": "1963-01-07",
+            "user_categories": [
+                {
+                    "id": 1400,
+                    "category": {
+                        "id": 28,
+                        "title":"Oftalmolog",
+                        "description":"Se ocupă de diagnosticul și tratamentul bolilor de ochi",
+                        "full_description": "<h3><strong>Ce tratează medicul oftalmolog ?</strong></h3><p><br></p><p><strong>Oftalmologul</strong> este un medic care se ocupă de diagnosticul și tratamentul bolilor de ochi. El diagnostichează defectele de vedere, prescrie corecțiile necesare și poate decide dacă pacientul trebuie sa fie operat.</p><p><br></p><p>Medicul<strong> oftalmolog</strong> tratează afecțiunile oculare și tulburările de vedere, anomaliile sistemului optic format din cornee, cristalin și retină: miopie, hipermetropie, astigmatism, tulburări de vedere binoculare, strabism, afecțiunile diabetice oculare, sindromul ochiului uscat, cataractă, glaucom, degenerescență maculară, uveite, dezlipire de retină. Toate aceste anomalii pot fi corectate prin ochelari corectori sau lentile de contact, prin ședințe de reabilitare și/sau prin intervenții chirurgicale efectuate chiar de medicul oftalmolog.&nbsp;</p><p>&nbsp;</p><h3><strong>Ce face medicul oftalmolog?</strong></h3><p><br></p><p>Orice examen oftalmologic include următoarele etape, efectuate cu diferite aparate: măsurarea acuității vizuale (fără corectare, apoi cu); măsurarea câmpului vizual; măsurarea tonusului ocular; examinarea fundului de ochi. Însă medicul oftalmolog poate efectua și examinări suplimentare: ecografie oculară, radiografie a orbitei, angiografie.</p><p><strong>Oftalmologul</strong> poate identifica&nbsp;patologii mai grave, legate de vârsta ca de exemplu : cataractă, degenerescență maculară, dezlipire de retină etc.</p><p>Odată pus diagnosticul, medicul oftalmolog decide care sunt pașii pe care trebuie sa îi urmeze pacientul pentru reabilitarea oculară necesară.</p><p><br></p><h3><strong style=\"color: rgb(33, 37, 41); background-color: transparent;\">Când să consultați un oftalmolog?</strong></h3><p><strong style=\"color: rgb(33, 37, 41); background-color: transparent;\">﻿</strong></p><p>În mod ideal, este mai bine să consultați regulat medicul oftalmolog și mai ales înainte de a observa o tulburare de vedere. De ce ? Pentru că înainte de a vă afecta vederea, multe boli oculare pot progresa „în tăcere”. Aceasta se referă mai ales în cazul pacienților care trec vârsta de 40 de ani. După această vârsta pot apărea probleme vizuale majore: glaucom, cataractă etc.</p><p><br></p><p>În afară de examinările regulate recomandate adulților, anumite semne ar trebui să vă încurajeze să consultați un <strong>oftalmolog</strong>:</p><ul><li>Modificări în perceperea culorilor</li><li>Sensibilitatea ochilor la lumina soarelui sau la lumină</li><li>Mâncărimi ale ochilor</li><li>Pete negre sau vedere încețoșată în centrul vederii</li><li>Modificări ale calității vederii: vedere încețoșată, halou luminos, vedere ondulată a liniilor.</li><li>Secreții,&nbsp;ochi lipiți</li><li>Dureri de cap frecvente după o zi de lucru pe ecran</li><li>Ochi lăcrimați, senzație de corp străin și ochi uscați.</li><li>Mâncărimi, pleoape umflate.</li></ul><p><br></p><p>De asemenea, acordați atenție&nbsp;simptomelor care constituie urgențe oftalmologice :</p><ul><li>&nbsp;&nbsp;&nbsp;Pierderea bruscă a vederii la un ochi sau altul</li><li>&nbsp;&nbsp;&nbsp;Vedere brusc ondulată, distorsionată sau dublă</li><li>&nbsp;&nbsp;&nbsp;Durere oculară violentă și bruscă, cu sau fără ochi roșii</li><li>&nbsp;&nbsp;&nbsp;Amputarea, chiar parțială, a câmpului vizual</li><li>&nbsp;&nbsp;Percepția blițurilor strălucitoare sau a muștelor zburătoare în fața ochilor.</li></ul><p><br></p><p>Aceste semne necesită o consultare urgentă cu un<strong> oftalmolog</strong> . Dacă nimeni nu vă poate consulta, trebuie să vă adresați la serviciile de urgență.</p><p><br></p><p>De reținut că anumite boli sunt recunoscute ca fiind capabile să influențeze integritatea și funcționarea normală a ochilor. De exemplu:</p><ul><li>diabetul;</li><li>tensiunea arterială crescută;</li><li>anumite reumatisme;</li><li>anumite boli infecțioase;</li><li>sau boli neurologice.</li></ul><p><br></p><p>În cazul prezenței uneia dintre bolile de mai sus, se recomandă adresarea la medicul oftalmolog în mod regulat.</p>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/03/view_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 790
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-14",
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(43, 43, 43);\">Medic oftalmolog maturi , categorie superioară de calificare, experiență profesională 33 ani.</span></p><p><br></p><ul><li><strong><em>﻿</em></strong>Investigaţia și tratarea afecţiunilor diabetice oculare </li><li>Tratarea sindromului de ochi uscat, terapia afecţiunilor oculare</li><li>Chirurgia cataractei și a glaucomului </li><li>Chirurgia pleoapei și a căilor lacrimale </li><li>Degenerescență maculară</li><li>Diagnosticul și tratamentul uveitelor</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1989,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 789,
+            "first_name": "Lilia",
+            "last_name": "Șaragov",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/19/lilia-min.png",
+            "date_of_birth": "1968-03-30",
+            "user_categories": [
+                {
+                    "id": 1396,
+                    "category": {
+                        "id": 9,
+                        "title": "Cardiolog",
+                        "description":"Se ocupă de bolile inimii și ale vaselor de sânge",
+                        "full_description":"<h3><strong>Ce tratează medicul cardiolog ?</strong></h3><p><br></p><p><strong>Cardiologia</strong> este specialitatea medicală care se ocupă de diagnosticarea și tratamentul afecțiunilor inimii și a vaselor de sânge.</p><p><br></p><p>E bine de știut că inima este un mușchi gol de mărimea unui pumn, numit miocard. Inima pompează sângele prin contracții ritmice către vasele de sânge, care îl distribuie ulterior către organele și țesuturile corpului.</p><h3><br></h3><h3><strong>Ce face medicul cardiolog?</strong></h3><p><br></p><p>Pentru a avea grijă de pacienții săi, cardiologul efectuează multe proceduri medicale:</p><ul><li>poate efectua examene, cum ar fi ecocardiografia, explorarea ritmică, măsurarea ambulatorie a tensiunii arteriale, scintigrafia miocardică, angioplastia sau chiar angiografia coronariană;</li><li>el poate recurge la tehnici intervenționale, precum dilatarea arterelor coronare, dilatarea valvelor cardiace, închiderea comunicării anormale între camerele cardiace sau chiar ablația circuitelor electrice anormale;</li><li>poate prescrie medicamente, atunci când patologia nu este într-un stadiu prea avansat;</li><li>poate oferi&nbsp;reabilitare cardiovasculară.</li></ul><p><br></p><h3><strong>Când să consultați un cardiolog?</strong></h3><p><br></p><p>Boală cardiacă este a două cauză de deces în rândul bărbaților și prima în rândul femeilor.</p><p>Multe dintre ele necesită intervenția unui <strong>cardiolog</strong>. Să menționăm în special :</p><ul><li>accident vascular cerebral ;&nbsp;</li><li>angină pectorală ;</li><li>embolie pulmonară ;</li><li>hipertensiune arterială ;</li><li>infarct miocardic ;</li><li>insuficiență cardiacă;</li><li>defecte cardiace;</li><li>ateroscleroza.</li></ul><p><br></p><p>Unii pacienți sunt mai tare expuși riscului de a avea boli de inimă. Iată câțiva factori care contribuie la creșterea riscului:</p><ul><li>obezitatea ;</li><li>lipsa de activitate fizică ;</li><li>stresul ;</li><li>fumatul ;</li><li>hipertensiune ;</li><li>excesul de colesterol ;</li><li>diabet.</li></ul>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/heart_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 789
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-09-22",
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255);\">Medic cardiolog maturi, categorie superioară de calificare, experiență profesională 30 ani.</span></p><p><br></p><ul><li>Insuficientă cardiacă</li><li>Cardiopatie ischemică</li><li>Dereglări de ritm și conductibilitate</li><li>Patologia cardiacă și&nbsp;sarcină</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1992,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 788,
+            "first_name": "Elena",
+            "last_name": "Vasilieva",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/03/07/vasilieva-min_1.png",
+            "date_of_birth": "1962-02-15",
+            "user_categories": [
+                {
+                    "id": 1395,
+                    "category": {
+                        "id": 4,
+                        "title": "Obstetrician-Ginecolog",
+                        "description":"Sănătatea reproductivă a femeii",
+                        "full_description":"<h3><strong>Ce tratează medicul obstetrician-ginecolog ?</strong></h3><p><br></p><p><strong>Ginecologia</strong> <span style=\"background-color: rgb(255, 255, 255);\">este ramura medicinei care se ocupă cu fiziologia și tratarea afecțiunilor aparatului genital feminin.</span> Medicul <strong>ginecolog </strong>este deci interlocutorul privilegiat al femeilor în fazele cheie ale vieții lor sexuale, de la pubertate până la menopauză. El se ocupă de probleme legate de menstruație sau menopauză, contracepție, boli ale sânului, uterului, ovarelor, trompelor uterine și organelor genitale externe, precum și de cancerele feminine.</p><p><br></p><p>Ginecologia <strong>obstetrică </strong>se referă la monitorizarea sarcinii și a nașterii. Un medic <strong>obstetrician</strong> are grijă de femeie dar și de copilul pe care îl poartă, asistat de o moașă și/sau de o asistentă. El efectuează examinările și stabilește diagnosticul prenatal.</p><h3><br></h3><p>Medicul <strong>obstetrician-ginecolog</strong> beneficiază de asemenea de o pregătire extinsă în chirurgie permițându-i să efectueze intervenții în timpul nașterii dar și în contextul altor afecțiuni, fie că este vorba despre o tumoare benignă (chist mamar, endometrioză, etc.) sau canceroasă (sân, uter, ovare), în chirurgia funcțională uro-ginecologică sau pelviană.</p><h3><br></h3><h3><strong>Ce&nbsp;face medicul obstetrician-ginecolog?</strong></h3><p><br></p><p>În colaborare cu echipa sa și în special cu moașele, monitorizează sarcina și dezvoltarea armonioasă a fătului. El supraveghează și intervine, dacă este necesar, în timpul nașterii. În caz de subfertilitate sau infertilitate, cuplurile care intenționează să aibă un copil pot găsi o soluție cu el prin medicină reproductivă : stimularea ovulației, inseminarea intrauterină, fertilizare în vitro etc. În timpul sarcinii se ocupă de diagnosticul prenatal, care constă în depistarea înainte de naștere a unei posibile patologii care afectează copilul nenăscut : malformație sau boală genetică. Pentru a stabili dacă fătul este purtător de o patologie, se pot face diferite tipuri de examinări : ecografie fetală și ecocardiografie, amniocenteză etc. Dincolo de urmărirea sarcinii și a actelor chirurgicale ale acesteia, medicul ginecolog-obstetrician poate efectua și alte intervenții medicale (monitorizarea colului uterin, plasarea implanturilor contraceptive, avort).</p>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/femenine_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 788
+                }
+            ],
+            "rating": 0,
+            "near_date": null,
+            "experience": "<p>Medic obstetrician-ginecolog maturi , categorie superioară de calificare, experiență profesională 32 ani.</p><p><br></p><ul><li><span style=\"background-color: rgb(255, 255, 255);\">Consultația </span>sarcinii la orice termen</li><li>Infecțiile sexual transmisibile</li><li>Vulvovaginita specifică și nespecifică</li><li>Disminoree</li><li>Sîngerări</li><li>Chisturi</li><li>Infertilitate</li><li>Estetică Intimă - injectabilă și chirurgicală</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1990,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 826,
+            "first_name": "Natalia",
+            "last_name": "Codreanu",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/24/poza_mea_jQHZDNe.jpg",
+            "date_of_birth": "1976-10-04",
+            "user_categories": [
+                {
+                    "id": 1326,
+                    "category": {
+                        "id": 31,
+                        "title": "Psiholog și Psihoterapeut",
+                        "description":"Se ocupă de tulburări de sănătate mintală",
+                        "full_description": "<h3><strong>Ce tratează psihologul ?</strong></h3><p><br></p><p><strong>Psihologul</strong> este un expert în comportament, emoții și sănătate mintală. El interactioneaza cu persoanele care se confruntă cu dificultăți psihologice.</p><p><br></p><h3><strong>Ce face psihologul?</strong></h3><p><br></p><p>Rolul său este să sprijine și să îndrume pacientul pe calea cea dreapta. Pentru aceasta , psihologul :</p><ul><li>solicită o descriere a istoriei sale personale, când a apărut problema, factorii care o agravează sau o diminuează, cum afectează această problemă viața socială, familială și profesională</li><li>poate trece la teste psihologice, pentru a înțelege mai bine comportamentul pacientului său. Testele pot fi folosite pentru a evalua starea de spirit, pentru a evalua problemele de memorie, de concentrare sau pentru a înțelege mai bine personalitatea pacientului.</li><li>odată cu colectarea informațiilor (prin interogatoriu și/sau faza de testare), psihologul plănuiește numărul de ședințe pe care le consideră necesare pentru ca individul, familia sau cuplul care a venit să-l consulte să se simtă mai bine;</li></ul><p><br></p><p><strong>Rețineți </strong>că psihologul nu este medic și nu poate prescrie medicamente. Dacă simte că pacientul pe care îl examinează are nevoie de ele, îi recomandă un medic specialist.</p><p><br></p><h3><strong>Când să consulți un psiholog ?</strong></h3><p><br></p><p>Multe subiecte intră în domeniul psihologiei. În special, menționăm următoarele:</p><ul><li>probleme de sănătate mintală, cum ar fi depresia, anxietatea, fobiile;</li><li>gestionarea suferinței, stresului, furiei<span style=\"background-color: rgb(255, 255, 255);\">;</span></li><li>probleme de dezvoltare și comportament<span style=\"background-color: rgb(255, 255, 255);\">;</span></li><li>probleme psihologice asociate cu consecințele unor boli, cum ar fi diabetul, accidentul vascular cerebral sau bolile de inimă<span style=\"background-color: rgb(255, 255, 255);\">;</span></li><li>fumatul, alcoolismul sau consumul de droguri;</li><li>relații de cuplu, probleme familiale;</li><li>traume psihologice.</li></ul><p><br></p>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/03/thinking_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 826
+                }
+            ],
+            "rating": 0,
+            "near_date": null,
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(43, 43, 43);\">Psiholog pentru adulți și copii, experiență profesională 16 ani</span></p><p><br></p><ul><li>Depresia</li><li>Tulburarea de stres posttraumatic (trauma)</li><li>Anxietatea generalizată</li><li>Tulburarea de panică (atacuri de panică) și agorafobia Anxietatea socială</li><li>Fobia specifică</li><li>Tulburarea obsesiv-compulsivă</li><li>Tulburările de conduită alimentară (bulimia, anorexia)</li><li>Tulburările de personalitate</li><li>Crize psihologice <span style=\"background-color: rgb(255, 255, 255);\">și</span> consiliere psihologică&nbsp;</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Psihologul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul psihologic.</span></p>",
+            "excperience_start_year": 2006,
+            "price": 500.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        }
+    ]
+}

@@ -1,9 +1,10 @@
 import { useMemo } from 'react'
 import noteImage from '../../assets/images/OBJECTS.png'
 import Button from '../../components/Button/Button'
+import { useTranslation } from 'react-i18next'
 
 
-export default function NoteSection({data, lang}) {
+export default function NoteSection() {
     const style = useMemo(()=>{
         return {
             background: "none",
@@ -12,6 +13,7 @@ export default function NoteSection({data, lang}) {
             padding: 0
         }
     },[])
+    const {t}= useTranslation()
     
     return (
        <div className="noteSection d-flex">
@@ -19,14 +21,14 @@ export default function NoteSection({data, lang}) {
                 <img src={noteImage} alt=""/>
             </div>
             <div className='noteTitle'>
-                <h3>{data.title[lang]}</h3>
-                <p>{data.description[lang]}</p>
+                <h3>{t("note.title")}</h3>
+                <p>{t("note.description")}</p>
                 <ul>
-                    <li>{data.text1[lang]}</li>
-                    <li>{data.text2[lang]}</li>
-                    <li>{data.text3[lang]}</li>
+                    <li>{t("note.text1")}</li>
+                    <li>{t("note.text2")}</li>
+                    <li>{t("note.text3")}</li>
                 </ul>
-                <Button link="/notes" style={style} text={data.button[lang]}/>
+                <Button link="/notes" style={style} text={t("note.button")}/>
             </div>
        </div>  
     )

@@ -1,15 +1,14 @@
-import { useContext, useState } from "react"
-import { TranslateContext } from "../../contexts/TranslateContext"
+import { useState } from "react"
 
-
+import i18n from "../../i18n"
 export default function TranslateButtons (){
-    const [buttonStyle, setActive] = useState(true)
-    const context = useContext(TranslateContext)
-    const setLanguage = context[2]
-
+    const lang = i18n.language
+    const bool = lang === "ro" ? false : true
+    const [buttonStyle, setActive] = useState(bool)
+    
     function selectLanguage(style, lang){
+        i18n.changeLanguage(lang)
         setActive(!style)
-        setLanguage(lang)
     }
     
     return (

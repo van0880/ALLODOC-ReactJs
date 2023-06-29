@@ -1,11 +1,12 @@
 import { useContext } from "react"
 import { TranslateContext } from "../../contexts/TranslateContext"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 export default function Navbar (){
-    const data = useContext(TranslateContext)
-    const navMenu = data[0].navMenu
-    const lang = data[1]
+    const context = useContext(TranslateContext)
+    const navMenu = context[0].navMenu
+    const {t} = useTranslation()
     return (
         <div>
             <ul>
@@ -13,7 +14,7 @@ export default function Navbar (){
                     navMenu.map((elem, i)=>{
                         return(
                             <li key={i}>
-                                <Link to={elem.link}>{elem.text[lang]}</Link>
+                                <NavLink to={elem.link}>{t(`navMenu.${i}.text`)}</NavLink>
                             </li>
                         )                                         
                     })

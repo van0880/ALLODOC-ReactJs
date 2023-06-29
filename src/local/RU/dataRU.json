@@ -1,0 +1,493 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "link": "/",
+            "img": "https://thumbs.dreamstime.com/b/person-icon-black-background-person-solid-vector-eps-90447225.jpg",
+            "text": "Мой профиль"
+        },
+        {
+            "id": 2,
+            "link": "/balance",
+            "img": "https://icon-library.com/images/moneybag-icon/moneybag-icon-18.jpg",
+            "text": "Пополнить баланс"
+        },
+        {
+            "id": 3,
+            "link": "/note",
+            "img": "https://thumbs.dreamstime.com/b/frequently-asked-questions-faq-icon-dark-background-frequently-asked-questions-faq-icon-dark-background-simple-vector-icon-117121760.jpg",
+            "text": "FAQ"
+        },
+        {
+            "id": 4,
+            "link": "/",
+            "img": "https://png.pngtree.com/png-vector/20190420/ourmid/pngtree-logout-vector-icon-png-image_963349.jpg",
+            "text": "Выйти"
+        }
+    ],
+    "navMenu": [
+        {
+            "id": 1,
+            "link": "/",
+            "text": "Как пользоваться?"
+        },
+        {
+            "id": 2,
+            "link": "/notes",
+            "text": "Мои записи"
+        },
+        {
+            "id": 3,
+            "link": "/balance",
+            "text": "Записаться к врачу"
+        }
+    ],
+    "homeSection": {
+        "title": "<span>Онлайн консультации</span> от врачей специалистов 24/7",
+        "text": "Проконсультируйтесь <b>сейчас</b> или по <b>предварительной записи</b> со своего компьютера или c помощью нашего приложения, доступного в <a href='https://play.google.com/' target='blank'>App Store</a> и <a href='https://play.google.com' target='blank'>Google Play</a>",
+        "buttons": {
+            "link1": "/doctors",
+            "button1": "Записаться",
+            "link2": "/",
+            "button2": "Как это работает?"
+        }
+    },
+    "myNotes": "Мои записи",
+    "note": {
+        "id": 6,
+        "title": "Записаться к врачу",
+        "description": "Более 1500 врачей и более 50 разных специализаций",
+        "text1": "Прием в удобное для вас время, без визита в клинику",
+        "text2": "Врачи с опытом работы более 8 лет",
+        "text3": "Понятно объясним причину недуга и дадим подробную рекомендацию",
+        "button": "Записаться",
+        "noteButton": "мои записи"
+    },
+    "filterButtons": {
+        "button1": "Предстоящие",
+        "button2": "Прошедшие",
+        "button3": "Отмененные"
+    },
+    "stateButton": {
+        "true": "Состоялась",
+        "false": "Запланировано"
+    },
+    "footerNav": [
+        {
+            "link": "/",
+            "text": "Как пользоваться?"
+        },
+        {
+            "link": "/",
+            "text": "Часто задаваемые вопросы"
+        },
+        {
+            "link": "/",
+            "text": "Для врачей"
+        },
+        {
+            "link": "/",
+            "text": "О сервисе"
+        },
+        {
+            "link": "/",
+            "text": "Контакты"
+        },
+        {
+            "link": "/",
+            "text": "Пользовательское соглашение"
+        }
+    ],
+    "footerText": "Онлай- консульации специалистов врачей, то что предлагает данный сервис. нашем веб и мобильном приложении вы найдете врачей экспертов, которые окажут вам персонализированную помощь онлайн 24/7",
+    "doctorProfile": {
+        "path": "Врачи / Профиль врача",
+        "consultation": " / консультация",
+        "nextEntry": "Ближайшая запись",
+        "education": "Образование",
+        "specializes": "Специализируется на лечении",
+        "additionally": "Дополнительно"
+    },
+    "balanceData": [
+        {
+            "img": "https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
+            "date": "08.06.2023",
+            "status": "Пополнение",
+            "money": 520.00
+        },
+        {
+            "img": "https://docpro.com/technine_dev/img/testimonial_2.png",
+            "date": "08.06.2023",
+            "status": "Оплата за консультацию",
+            "money": -600.00
+        },
+        {
+            "img": "https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
+            "date": "08.06.2023",
+            "status": "Оплата за консультацию",
+            "money": -950.00
+        },
+        {
+            "img": "https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
+            "date": "08.06.2023",
+            "status": "Пополнение",
+            "money": 960.00
+        },
+        {
+            "img": "https://w7.pngwing.com/pngs/314/877/png-transparent-visa-logo-credit-card-debit-card-mastercard-logo-visa-go-blue-text-trademark.png",
+            "date": "08.06.2023",
+            "status": "Пополнение",
+            "money": 460.00
+        },
+        {
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Paul_Circle.png/1023px-Paul_Circle.png",
+            "date": "08.06.2023",
+            "status": "Оплата за консультацию",
+            "money": -800.00
+        }
+    ],
+    "balanceTitle": {
+        "title": "Баланс",
+        "button": "Пополнить счет",
+        "history": "История платежей"
+    },
+    "balanceButtons": {
+        "all": "Все",
+        "paid": "Оплаченные",
+        "unpaid": "Неоплаченные"
+    },
+    "viewEntryButton": "Посмотреть запись",
+    "viewRulingButton": "Посмотреть постановление",
+    "minute": "минут",
+    "doctors": [
+        {
+            "id": 793,
+            "first_name": "Andrian",
+            "last_name": "Chiriac",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/10/foto_profil_1_hxKaH8hcsq.jpg",
+            "date_of_birth": "1978-02-15",
+            "user_categories": [
+                {
+                    "id": 1397,
+                    "category": {
+                        "id": 12,
+                        "title": "Эндокринолог",
+                        "description": "Изучает строение и работу желез внутренней секреции",
+                        "full_description": "<h3><strong>Что лечит эндокринолог ?</strong></h3><p><br></p><p><strong>Эндокринолог</strong> – это врач, который занимается диагностикой и лечением гормональных нарушений и их осложнений. Таким образом, он способен оценить работу гормональной системы и лечить любые нарушения, которые она может вызвать. Ведь гормоны контролируют все функции организма. Эндокринолог проверит правильное функционирование этих регуляторных систем, количество этих гормонов и вылечит любую патологию, связанную с гормональным дисбалансом.</p><p><br></p><h3><strong>Чем занимается эндокринолог?</strong></h3><p><br></p><p><strong>Эндокринолог</strong> консультирует мужчин и женщин всех возрастов. Будь то молодые подростки, мужчины среднего возраста или даже младенцы.</p><p><br></p><p>Эндокринолог выслушивает своего пациента, при необходимости выслушивает его, но в большинстве случаев назначает анализы крови, мочи, рентген, томограф и т.д., чтобы лучше всего установить диагноз и назначить правильное лечение.</p><p><br></p><p>Иногда пациенту достаточно будет изменить свой образ жизни, чтобы привести в порядок свою гормональную систему, чтобы он больше не страдал от вызываемого ею дискомфорта. Простой пример — избыток холестерина.</p><p><br></p><h3><strong>Что лечит эндокринолог?</strong></h3><p><br></p><p>Проблемы со здоровьем, которые лечит <strong>эндокринолог: </strong>сахарный диабет, дистиреоз (т.е. дисфункция щитовидной железы), узлы и зоб, первичный гиперпаратиреоз (эндокринное заболевание, связанное с нарушением функции паращитовидных желез), ожирение, гиперсекреция или отсутствие секреции, секреции надпочечников, гормональные заболевания, связанные с бесплодием, патологии гипоталамо-гипофизарной системы, надпочечников, паращитовидных желез, нарушения фосфорно-кальциевого обмена.</p>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/thyroid_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 793
+                }
+            ],
+            "rating": 5,
+            "near_date": "2023-04-25",
+            "experience": "<p>Medic endocrinolog maturi și copii, categorie superioară de calificare, experiență profesională 17 ani.</p><p><br></p><ul><li>Diagnosticul și tratamentul diabetului zaharat la maturi și copii, inclusiv program de educație în diabet și utilizarea noilor tehnologii: senzori de glicemie și pompe de insulină;</li><li>Tratamentul obezității cu complicațiile ei și consiliere nutrițională;</li><li>Diagnosticul și tratamentul patologiilor glandei tiroide;</li><li>Evaluarea și tratamentul copiilor cu probleme de creștere și pubertate;</li><li>Diagnosticul, tratamentul și supravegherea pacienților cu maladii endocrine rare, inclusiv în bolile genetice: patologiile hipotalamo-hipofizare,&nbsp;a glandelor suprarenale, paratiroide, dereglările metabolismului de calciu și fosfor.</li></ul><p><br></p><p>În timul consultației trebuie să fiți gata de a comunica datele dvs. despre simptomele prezentate, istoricul bolii, tratamentul administrat și rezultatele investigațiilor efectuate. În rezultatul consultației veți putea beneficia de asistență calificată pentru clarificarea diagnosticului, discuția planului de examinare, interpretarea rezultatelor investigațiilor, evaluarea schemelor de tratament, educație terapeutică și consiliere nutrițională, urmărire în dinamică.</p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! </span>Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</p>",
+            "excperience_start_year": 2005,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 855,
+            "first_name": "Zinaida",
+            "last_name": "Sârbu",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/03/31/foto_mea.jpg",
+            "date_of_birth": "1965-03-01",
+            "user_categories": [
+                {
+                    "id": 1375,
+                    "category": {
+                        "id": 4,
+                        "title": "Акушер-гинеколог",
+                        "description": "Женская консультация",
+                        "full_description": "<h3><strong>Что лечит врач акушер-гинеколог ?</strong></h3><p><br></p><p><strong>Гинекология</strong> – раздел медицины, изучающий физиологию и лечение заболеваний <span style=\"background-color: rgb(255, 255, 255); color: rgb(77, 81, 86);\">женской репродуктивной системы</span>. Таким образом, гинеколог является привилегированным собеседником женщин на ключевых этапах их сексуальной жизни, от полового созревания до менопаузы. Он занимается проблемами, связанными с менструацией или менопаузой, контрацепцией, заболеваниями молочной железы, матки, яичников, фаллопиевых труб и наружных половых органов, а также женскими раковыми заболеваниями.</p><p><br></p><p><strong>Акушерская гинекология</strong> относится к наблюдению за беременностью и родами. Акушер заботится о женщине, а также о ребенке, которого она носит, с помощью акушерки и/или медсестры. Он проводит обследования и устанавливает пренатальный диагноз.</p><p><br></p><p><strong>Акушер-гинеколог</strong> также имеет обширную хирургическую подготовку, что позволяет ему выполнять вмешательства во время родов, а также в контексте других состояний, будь то доброкачественная опухоль (киста молочной железы, эндометриоз и т.д.) или раковая <span style=\"background-color: rgb(255, 255, 255);\">опухоль </span>(молочная железа, матка, яичники).</p><p><br></p><h3><strong>Чем занимается акушер-гинеколог?</strong></h3><p><br></p><p>В сотрудничестве со своей командой и особенно с акушерками он следит за беременностью и гармоничным развитием плода. Он наблюдает и вмешивается, если это необходимо, во время родов. В случае субфертильности или бесплодия пары, которые намерены иметь ребенка, могут найти решение с ним с помощью репродуктивной медицины: стимуляция овуляции, внутриматочная инсеминация, экстракорпоральное оплодотворение и т.д. Во время беременности занимается пренатальной диагностикой, заключающейся в выявлении еще до рождения возможной патологии, поражающей будущего ребенка: порока развития или генетическое заболевание. Для того чтобы определить, есть ли у плода патология, могут проводиться разные виды обследований: УЗИ плода и эхокардиография, амниоцентез и др. Помимо наблюдения беременности и хирургических вмешательств, гинеколог-акушер может выполнять и другие медицинские вмешательства (наблюдение за шейкой матки, установка контрацептивных имплантатов, прерывание беременности).</p>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/femenine_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 855
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-07-16",
+            "experience": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Medic obstetrician-ginecolog maturi și copii, Doctor în științe medicale,conferențiar universitar, experiență profesională 31 ani.</span></p><p><br></p><ul><li><span style=\"background-color: transparent;\">Infertilitate</span></li><li><span style=\"background-color: transparent;\">Hiperplazie de endometru</span></li><li><span style=\"background-color: transparent;\">Endometrioză</span></li><li><span style=\"background-color: transparent;\">Sindromul ovarelor polichistice</span></li><li><span style=\"background-color: transparent;\">Hiperandrogenism</span></li><li><span style=\"background-color: transparent;\">Insuficientă ovariană prematură</span></li><li><span style=\"background-color: transparent;\">Sindrom climacteric menopauzal</span></li><li><span style=\"background-color: transparent;\">Dismenoree</span></li><li><span style=\"background-color: transparent;\">Miom uterin</span></li><li><span style=\"background-color: transparent;\">Displazie hormonală a glandelor mamare</span></li></ul><p><br></p><p><em style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Atenție</em><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1991,
+            "price": 750.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 785,
+            "first_name": "Irina",
+            "last_name": "Triboi",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/14/irina_triboi.png",
+            "date_of_birth": "1987-12-08",
+            "user_categories": [
+                {
+                    "id": 1417,
+                    "category": {
+                        "id": 2,
+                        "title": "Педиатр",
+                        "description": "Врач широкой специализации, работающий с детьми и подростков",
+                        "full_description": "<p><strong>Педиатр</strong> – это специалист, который занимается изучением и лечением заболеваний, встречающихся у детей и подростков. Он играет важную роль в наблюдении за физиологическим и психологическим развитием детей и подростков. Он также занимается профилактикой, диагностикой и лечением детских патологий, которые могут повлиять на здоровье ребенка.</p><p><br></p><h3><strong>Что делает педиатр?</strong></h3><p><br></p><p><strong>Педиатр</strong> является привилегированным собеседником родителей. Он консультирует их по вопросам питания, сна, гигиены, техники безопасности и других важных моментов в воспитании ребенка. Он также отвечает за раннее выявление определенных патологий и последующее наблюдение за вакцинацией. При наличии у ребенка симптомов заболевания врач выясняет подробности состояния, при необходимости проводит клиническое обследование и назначает дополнительные обследования (анализы крови, мочи, УЗИ и др.) <span style=\"background-color: rgb(255, 255, 255);\">для определения лечения, соответствующего клиническому контексту и возрасту ребенка.</span></p><p><br></p><h3><strong>Что лечит врач-педиатр?</strong></h3><p><br></p><p>В дополнение к регулярному наблюдению, которое он обеспечивает, педиатр консультирует своих пациентов по нескольким причинам.</p><p><br></p><p>Ниже приведены наиболее распространенные причины:</p><ul><li>инфекционные проблемы, такие как менингит;</li><li>отравление;</li><li>аллергия;</li><li>травма;</li><li>метаболические нарушения;</li><li>вопросы развития;</li><li>двигательный дефицит;</li><li>трудности в обучении;</li><li>воспалительные заболевания;</li><li>и так далее</li></ul>",
+                        "image": "https://api.allodoc.md/media/static/images/2021/12/17/Group_25.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 785
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-08-17",
+            "experience": "<p>Medic pediatru copii, experiență profesională 10 ani. </p><p><br></p><p>Semnele generale de pericol la copil care sînt considerate urgențe și care nu pot fi consultate la distanță:</p><ol><li>Copilul nu poate bea sau suge piept;</li><li>Vomită după fiecare alimentație;</li><li>Are&nbsp;convulsii;</li><li>E letargic (foarte somnolent) sau inconştient;</li><li>Are febră (peste 38 C) sau temperatură sub 36 C;&nbsp;</li><li>Devine brusc palid sau se învineţeşte;&nbsp;</li><li>Se mişcă mai puţin decât de obicei;</li><li>Plânge fără întrerupere şi refuză să fie alăptat.</li><li>Respiră greu, zgomotos sau are respitație accelerată:&nbsp;</li></ol><ul><li>pentru copilul până la&nbsp;2 luni, mai mult de 60 de respirații pe minut;</li><li>copilul cu vârstă cuprinsă între 2 luni și 12 luni, mai mult de 50 de respirații pe minut;&nbsp;</li><li>copilul de la 12 luni până la 5 ani, mai mult de 40 de respirații pe minut.</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 2012,
+            "price": 350.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 809,
+            "first_name": "Olimpia",
+            "last_name": "Gherman",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/17/gherman_bis2-min.png",
+            "date_of_birth": "1980-07-23",
+            "user_categories": [
+                {
+                    "id": 1402,
+                    "category": {
+                        "id": 32,
+                        "title": "Пневмолог",
+                        "description": "Занимается диагностикой и лечением  заболеваний органов дыхания",
+                        "full_description": "<h3><strong>Что лечит врач пульмонолог ?</strong></h3><p><br></p><p><strong>Пульмонолог</strong> — это врач, специализирующийся на лечении респираторных заболеваний и легочных инфекций, которые поражают следующие органы: легкие, бронхи, плевра (которая является «покрытием» легких и включает 2 слоя, висцеральную и париетальную плевру).</p><p><br></p><h3><strong>Чем занимается пульмонолог?</strong></h3><p><br></p><p>Для постановки диагноза и выявления источника нарушения врач-пульмонолог выполняет следующие действия:</p><ul><li>расспрашивает больного, чтобы выяснить характер расстройства, дату его возникновения и как оно началось (нагрузка, простуда и т.д.), степень ощущаемого дискомфорта;</li><li>расспрашивает об анамнезе пациента, его факторах риска (курение, профессиональное воздействие и др.), семейном анамнезе;</li><li>задавает вопросы об окружающей среде и образе жизни (место проживания, домашние животные, недавние путешествия и т.д.);</li><li>может нуждатся в прослушивании пациента с помощью стетоскопа;</li><li>может назначить дополнительные обследования (например, рентгенографию).</li></ul><p><br></p><h3><strong>Когда обращаться к пульмонологу?</strong></h3><p><br></p><p>Пульмонолог может лечить многие патологии, такие как:</p><ul><li>астма;</li><li>респираторные аллергии;</li><li>нарушение дыхания;</li><li>хроническое обструктивное заболевание легких;</li><li>легочная артериальная гипертензия;</li><li>легочная эмболия;</li><li>плеврит;</li><li>нарушения дыхания, связанные с системными заболеваниями (васкулиты, конъюнктивиты, саркоидоз и др.);</li><li>инфекционные заболевания, такие как туберкулез, пневмония или абсцесс легкого;</li><li>генетические заболевания, такие как муковисцидоз (кистозный фиброз);</li><li>нарушения сна (апноэ, храп);</li><li>профессиональные заболевания органов дыхания вследствие воздействия некоторых веществ (асбест, химикаты, пыль и др.);</li><li>заболевания, связанные с курением (эмфизема легких, хронический бронхит и др.);</li><li>нервно-мышечные заболевания с респираторными симптомами;</li><li>реанимация, интенсивная терапия.</li></ul>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/15/vectorpaint_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 809
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-17",
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255);\">Medic pneumolog maturi , experiență profesională 18 ani, care se ocupă cu tratamentul patologiilor respiratorii :</span></p><p><br></p><ul><li>Pneumonii</li><li>Bronșite</li><li>Astm bronșic</li><li>Tuberculoză</li><li>Bronșită cronică obstructivă</li><li>Covid-19</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>﻿Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 2004,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 786,
+            "first_name": "Angela",
+            "last_name": "Selivanov",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/18/angela_selivanov_bis-min.png",
+            "date_of_birth": "1976-04-23",
+            "user_categories": [
+                {
+                    "id": 1393,
+                    "category": {
+                        "id": 1,
+                        "title": "Терапевт",
+                        "description": "Терапевт, специалист общего профиля",
+                        "full_description": "<h3><strong>Что лечит врач терапевт ?</strong></h3><p><br></p><p><strong>Терапевт</strong> — это врач, к которому мы чаще всего обращаемся в течение жизни. Он лечит повседневные проблемы со здоровьем, зная нашу медицинскую и семейную историю.</p><p><br></p><p><strong>Терапевт</strong> обеспечивает индивидуальное наблюдение за своими пациентами, назначая соответствующее лечение. Он может направить их к врачам-специалистам, когда симптомы пациента больше не находятся под его контролем. Перед обращением к специалисту (кроме гинеколога, офтальмолога, психиатра и стоматолога) пациенту следует сначала пройти обследование у своего лечащего врача.</p><p><br></p><p>Консультации врача начинаются с беседы с пациентом для выяснения причин его обращения (боль, дискомфорт, лихорадка и др.). Затем врач приступает к медицинскому осмотру пациента путем общего осмотра, пальпации или аускультации с использованием медицинских инструментов. Эта медицинская процедура включает в себя измерение артериального давления с помощью сфигмоманометра, прослушивание сердца с помощью стетоскопа, пальпацию лимфатических узлов и так далее. Также он может посмотреть состояние глотки и миндалин пациента с помощью шпателя, а также полости уха. Лечащий врач также может рекомендовать лекарства (таблетки, инъекции и инфузии), в том числе вакцины.</p>",
+                        "image": "https://api.allodoc.md/media/static/images/2021/12/17/doctor-stethoscope_2.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 786
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-10-20",
+            "experience": "<p>Medic internist maturi, categorie superioară de calificare, experiență profesională 23 ani.</p><p><br></p><ul><li>Consultul și tratamentul pacienților cu multiple comorbidități, abordare multidisciplinară:</li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Hepatită cronică și ciroză hepatică</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Infecții respiratorii&nbsp;</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Gastrită, ulcer</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Hipertensiune și boli cardiace</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Boli articulare</span></li><li>Consultul și tratamentul pacienților suspecți/confirmați pozitiv COVID-19, conduința pacienților cu consecințe ale infecției SARS-CoV-2</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1999,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 822,
+            "first_name": "Nadejda",
+            "last_name": "Corobcean",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/17/dfgdfgdf-min.png",
+            "date_of_birth": "1976-12-26",
+            "user_categories": [
+                {
+                    "id": 1415,
+                    "category": {
+                        "id": 33,
+                        "title": "Онколог",
+                        "escription": "Занимается диагностикой и лечением опухоли в организме человека",
+                        "full_description": "<p><strong>Онколог</strong> — это врач, который занимается онкологическими заболеваниями: хирургическим лечением, лучевой и медикаментозной терапией, химиотерапией, гормонотерапией, иммунотерапией и таргетной терапией. Он также занимается решением проблем, связанных с раком или побочными эффектами лечения: болью, усталостью, проблемами с питанием, пищеварением, дыханием.</p><p><br></p><h3><strong>Что делает и лечит врач онколог?</strong></h3><p>&nbsp;</p><p>Роль<strong> онколога</strong> заключается в определении типа опухоли, ее тяжести и степени распространения. После того, как рак был диагностирован, он предлагает терапевтическую стратегию, обсуждает со специалистами, занимающимися лечением опухолей (хирургами, патологоанатомами, рентгенологами, радиотерапевтами) на междисциплинарных советах, чтобы обеспечить рассмотрение всех возможных вариантов. При выборе медикаментозного лечения онколог: назначает препараты, которые следует вводить в виде циклов, проверяет их эффективность клиническими и визуализирующими исследованиями, отслеживает их возможные побочные эффекты.</p><p><br></p><p>&nbsp;Наиболее распространенными видами рака являются:</p><ul><li>Рак молочной железы</li><li>Рак толстой и прямой кишки</li><li>Рак легких</li><li>Рак простаты</li><li><span style=\"background-color: rgb(255, 255, 255);\">Р</span>ак шейки матки</li></ul><p><br></p><p>Хотя рак может поразить любого человека в любом возрасте, в том числе в детстве, существует несколько признанных факторов риска развития рака:</p><ul><li>Генетические факторы, особенно для рака молочной железы, яичников или толстой кишки;</li><li>Употребление табака;</li><li>Хроническое воздействие радиации или некоторых веществ (асбеста, химикатов, пестицидов);</li><li>Некоторые вирусы (рак шейки матки, рак желудка, рак печени).</li></ul>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/17/vectorpaint_2_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 822
+                }
+            ],
+            "rating": 5,
+            "near_date": "2023-05-01",
+            "experience": "<p>Medic oncolog, doctor în științe medicale, conferențiar universitar, experiență profesională 18 ani.</p><p><br></p><ul><li><span style=\"background-color: rgb(255, 255, 255);\">Diagnosticul complet al tumorilor maligne (aprecierea tipului histologic și stadiului clinic al bolii)</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Selectarea algoritmului de tratament personalizat specific pentru fiecare pacient (planul de tratament personalizat)</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Determinarea indicațiilor pentru Tratament chirurgical, Terapia targhet (terapia țintită), Imunoterapie, Radioterapie</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Testarea moleculară a țesutului tumoral și alegerea tratamentului individual în funcție de profilul molecular-genetic</span></li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! </span>Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</p>",
+            "excperience_start_year": 2004,
+            "price": 400.0,
+            "country_code": {
+                "id": 8,
+                "icon": "https://api.allodoc.md/media/static/images/2022/02/02/flag_romania-min.png",
+                "code": "+40",
+                "digit_count": 9
+            }
+        },
+        {
+            "id": 790,
+            "first_name": "Ludmila",
+            "last_name": "Surățel",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/19/ludmila_suratel_2-min.png",
+            "date_of_birth": "1963-01-07",
+            "user_categories": [
+                {
+                    "id": 1400,
+                    "category": {
+                        "id": 28,
+                        "title": "Офтальмолог",
+                        "description": "Занимается диагностикой и лечением глазных болезней",
+                        "full_description": "<h3><strong>Что лечит врач офтальмолог ?</strong></h3><p><br></p><p><strong>Офтальмолог</strong> – это врач, который занимается диагностикой и лечением заболеваний глаз. Он диагностирует дефекты зрения, назначает необходимые коррекции и может решить, нужна ли пациенту операция.</p><p><br></p><p><strong>Офтальмолог</strong> занимается лечением заболеваний глаз и нарушений зрения, аномалий роговицы, хрусталика и сетчатки: близорукости, дальнозоркости, астигматизма, нарушений бинокулярного зрения, косоглазия, диабетических заболеваний глаз, синдрома сухого глаза, катаракты, глаукомы, дегенерации, отслоения сетчатки. Все эти аномалии могут быть исправлены корректирующими очками или контактными линзами, реабилитационными сеансами и/или хирургическим вмешательством, проводимым самим офтальмологом.</p><p><br></p><h3><strong>Что делает офтальмолог?</strong></h3><p><br></p><p>Любое обследование глаз включает в себя следующие этапы, выполняемые с помощью различных приборов: измерение остроты зрения (без коррекции, затем с); измерение поля зрения; измерение тонуса глаз; осмотр глазного дна. Однако офтальмолог может провести и дополнительные обследования: УЗИ глаз, рентгенографию орбиты, ангиографию.</p><p><strong>Офтальмолог</strong> может выявить более серьезные патологии, связанные с возрастом, такие как катаракта, дегенерация желтого пятна, отслоение сетчатки и др.</p><p>После постановки диагноза офтальмолог решает, какие шаги должен предпринять пациент для необходимой реабилитации глаз.</p><p><br></p><h3><strong>Когда обратиться к офтальмологу?</strong></h3><p><br></p><p>В идеале лучше регулярно консультироваться с офтальмологом и особенно до того, как вы заметите нарушение зрения. Почему ? Потому что до того, как ваше зрение пострадает, многие глазные болезни могут прогрессировать «в тишине». Особенно это касается пациентов старше 40 лет. После этого возраста могут возникнуть серьезные проблемы со зрением: глаукома, катаракта и т.д.</p><p><br></p><p>Помимо регулярных осмотров, рекомендованных для взрослых, некоторые признаки должны побудить вас обратиться к <strong>офтальмологу</strong>:</p><ul><li>Изменения в восприятии цвета</li><li>Чувствительность глаз к солнечному свету или свету</li><li>Зудящие глаза</li><li>Черные пятна или помутнение зрения в центре поля зрения</li><li>Изменения качества зрения: нечеткость зрения, яркий ореол, волнистые линии.</li><li>Секреции, склеенные глаза</li><li>Частые головные боли после рабочего дня за экраном</li><li>Слезы в глазах, ощущение инородного тела и сухость глаз.</li><li>Зуд, опухшие веки.</li></ul><p><br></p><p>Также обратите внимание на симптомы, которые представляют собой неотложную офтальмологическую помощь:</p><ul><li>Внезапная потеря зрения на тот или иной глаз</li><li>Внезапно волнистое, искаженное или двойное изображение</li><li>Сильная и внезапная боль в глазах с покраснением глаз или без него</li><li>Ампутация, даже частичная, поля зрения</li><li>Восприятие ярких вспышек или летающих мух перед глазами.</li></ul><p><br></p><p>Эти признаки требуют срочной консультации <strong>офтальмолога</strong>. Если никто не может проконсультировать вас, вам следует обратиться в службы экстренной помощи.</p><p><br></p><p>Следует отметить, что некоторые заболевания признаются способными повлиять на целостность и нормальное функционирование глаз. Например:</p><ul><li>диабет;</li><li>повышенное артериальное давление;</li><li>некоторые ревматизмы;</li><li>некоторые инфекционные заболевания;</li><li>или неврологические заболевания.</li></ul><p><br></p><p>При любом из вышеперечисленных заболеваний рекомендуется регулярно обращаться к офтальмологу.</p>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/03/view_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 790
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-14",
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(43, 43, 43);\">Medic oftalmolog maturi , categorie superioară de calificare, experiență profesională 33 ani.</span></p><p><br></p><ul><li><strong><em>﻿</em></strong>Investigaţia și tratarea afecţiunilor diabetice oculare </li><li>Tratarea sindromului de ochi uscat, terapia afecţiunilor oculare</li><li>Chirurgia cataractei și a glaucomului </li><li>Chirurgia pleoapei și a căilor lacrimale </li><li>Degenerescență maculară</li><li>Diagnosticul și tratamentul uveitelor</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1989,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 789,
+            "first_name": "Lilia",
+            "last_name": "Șaragov",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/19/lilia-min.png",
+            "date_of_birth": "1968-03-30",
+            "user_categories": [
+                {
+                    "id": 1396,
+                    "category": {
+                        "id": 9,
+                        "title": "Кардиолог",
+                        "description": "Занимается болезнями сердечно-сосудистой системы",
+                        "full_description": "<h3><strong>Что лечит врач кардиолог ?</strong></h3><p><br></p><p><strong>Кардиология</strong> — это медицинская специальность, которая занимается диагностикой и лечением заболеваний сердца и сосудов.</p><p><br></p><p>Полезно знать, что сердце представляет собой полую мышцу размером с кулак, называемую миокардом. Сердце перекачивает кровь за счет ритмичных сокращений к кровеносным сосудам, которые затем распределяют ее по органам и тканям тела.</p><p><br></p><h3><strong>Чем занимается кардиолог?</strong></h3><p><br></p><p>Для ухода за своими пациентами кардиолог выполняет множество лечебных процедур:</p><ul><li>может выполнять такие обследования, как эхокардиография, исследование ритма, амбулаторное измерение артериального давления, сцинтиграфия миокарда, ангиопластика или даже коронарография;</li><li>он может прибегнуть к интервенционным методам, таким как расширение коронарных артерий, расширение сердечных клапанов, отключение аномальной связи между камерами сердца или даже удаление аномальных электрических цепей;</li><li>может прописать лекарство, когда состояние не слишком запущено;</li><li>может обеспечить сердечно-сосудистую реабилитацию.</li></ul><h3><br></h3><h3><strong>Когда обращаться к кардиологу?</strong></h3><p><br></p><p>Сердечно-сосудистые заболевания являются второй по значимости причиной смерти среди мужчин и основной причиной смерти среди женщин.</p><p><br></p><p>Многие из них требуют вмешательства <strong>кардиолога</strong>. Упомянем, в частности:</p><ul><li><span style=\"background-color: rgb(255, 255, 255);\">и</span>нсульт ;</li><li>стенокардия;</li><li>легочная эмболия;</li><li>гипертония;</li><li>инфаркт миокарда ;</li><li>сердечная недостаточность;</li><li>пороки сердца;</li><li>атеросклероз.</li></ul><p><br></p><p>Некоторые пациенты более подвержены риску сердечно-сосудистых заболеваний. Вот некоторые из факторов, которые способствуют повышенному риску:</p><ul><li>ожирение;</li><li>отсутствие физической активности;</li><li>стресс;</li><li>курение;</li><li>гипертония;</li><li>избыток холестерина;</li><li>диабет.</li></ul>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/heart_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 789
+                }
+            ],
+            "rating": 0,
+            "near_date": null,
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255);\">Medic cardiolog maturi, categorie superioară de calificare, experiență profesională 30 ani.</span></p><p><br></p><ul><li>Insuficientă cardiacă</li><li>Cardiopatie ischemică</li><li>Dereglări de ritm și conductibilitate</li><li>Patologia cardiacă și&nbsp;sarcină</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1992,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 788,
+            "first_name": "Elena",
+            "last_name": "Vasilieva",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/03/07/vasilieva-min_1.png",
+            "date_of_birth": "1962-02-15",
+            "user_categories": [
+                {
+                    "id": 1395,
+                    "category": {
+                        "id": 4,
+                        "title": "Акушер-гинеколог",
+                        "description": "Женская консультация",
+                        "full_description": "<h3><strong>Что лечит врач акушер-гинеколог ?</strong></h3><p><br></p><p><strong>Гинекология</strong> – раздел медицины, изучающий физиологию и лечение заболеваний <span style=\"background-color: rgb(255, 255, 255); color: rgb(77, 81, 86);\">женской репродуктивной системы</span>. Таким образом, гинеколог является привилегированным собеседником женщин на ключевых этапах их сексуальной жизни, от полового созревания до менопаузы. Он занимается проблемами, связанными с менструацией или менопаузой, контрацепцией, заболеваниями молочной железы, матки, яичников, фаллопиевых труб и наружных половых органов, а также женскими раковыми заболеваниями.</p><p><br></p><p><strong>Акушерская гинекология</strong> относится к наблюдению за беременностью и родами. Акушер заботится о женщине, а также о ребенке, которого она носит, с помощью акушерки и/или медсестры. Он проводит обследования и устанавливает пренатальный диагноз.</p><p><br></p><p><strong>Акушер-гинеколог</strong> также имеет обширную хирургическую подготовку, что позволяет ему выполнять вмешательства во время родов, а также в контексте других состояний, будь то доброкачественная опухоль (киста молочной железы, эндометриоз и т.д.) или раковая <span style=\"background-color: rgb(255, 255, 255);\">опухоль </span>(молочная железа, матка, яичники).</p><p><br></p><h3><strong>Чем занимается акушер-гинеколог?</strong></h3><p><br></p><p>В сотрудничестве со своей командой и особенно с акушерками он следит за беременностью и гармоничным развитием плода. Он наблюдает и вмешивается, если это необходимо, во время родов. В случае субфертильности или бесплодия пары, которые намерены иметь ребенка, могут найти решение с ним с помощью репродуктивной медицины: стимуляция овуляции, внутриматочная инсеминация, экстракорпоральное оплодотворение и т.д. Во время беременности занимается пренатальной диагностикой, заключающейся в выявлении еще до рождения возможной патологии, поражающей будущего ребенка: порока развития или генетическое заболевание. Для того чтобы определить, есть ли у плода патология, могут проводиться разные виды обследований: УЗИ плода и эхокардиография, амниоцентез и др. Помимо наблюдения беременности и хирургических вмешательств, гинеколог-акушер может выполнять и другие медицинские вмешательства (наблюдение за шейкой матки, установка контрацептивных имплантатов, прерывание беременности).</p>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/femenine_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 788
+                }
+            ],
+            "rating": 0,
+            "near_date": "2022-24-02",
+            "experience": "<p>Medic obstetrician-ginecolog maturi , categorie superioară de calificare, experiență profesională 32 ani.</p><p><br></p><ul><li><span style=\"background-color: rgb(255, 255, 255);\">Consultația </span>sarcinii la orice termen</li><li>Infecțiile sexual transmisibile</li><li>Vulvovaginita specifică și nespecifică</li><li>Disminoree</li><li>Sîngerări</li><li>Chisturi</li><li>Infertilitate</li><li>Estetică Intimă - injectabilă și chirurgicală</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1990,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        },
+        {
+            "id": 826,
+            "first_name": "Natalia",
+            "last_name": "Codreanu",
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/24/poza_mea_jQHZDNe.jpg",
+            "date_of_birth": "1976-10-04",
+            "user_categories": [
+                {
+                    "id": 1326,
+                    "category": {
+                        "id": 31,
+                        "title": "Психолог и Психотерапевт",
+                        "description": "Занимается психическими расстройствами",
+                        "full_description": "<h3><strong>Что лечит психолог ?</strong></h3><p><br></p><p><strong>Психолог</strong> является экспертом в области поведения, эмоций и психического здоровья. Он взаимодействует с людьми, которые испытывают психологические трудности.</p><p><br></p><h3><strong>Чем занимается психолог?</strong></h3><p><br></p><p>Его роль состоит в том, чтобы поддержать и направить пациента на правильный путь. Для этого психолог:</p><ul><li>просит описать свою личную историю, когда возникла проблема, факторы, усугубляющие или уменьшающие ее, как эта проблема влияет на социальную, семейную и профессиональную жизнь</li><li>он может пройти психологические тесты, чтобы лучше понять поведение своего пациента. Тесты можно использовать для оценки настроения, памяти, проблем с концентрацией внимания или для лучшего понимания личности пациента.</li><li>После того, как информация собрана (путем опроса и/или этапа тестирования), психолог планирует количество сеансов, которое он или она считает необходимым, чтобы человек, семья или пара, пришедшие к нему или к ней, почувствовали себя лучше;</li></ul><p><br></p><p><strong>Обратите внимание</strong>, что психолог не является врачом и не может назначать лекарства. Если он чувствует, что пациент, которого он обследует, нуждается в них, то он рекомендует врача специалиста.</p><p><br></p><h3><strong>Когда обращаться к психологу?</strong></h3><p><br></p><p>Многие предметы попадают в область психологии. В частности, отметим следующее:</p><ul><li>проблемы с психическим здоровьем, такие как депрессия, тревога, фобии;</li><li>управление страданиями, стрессом, гневом;</li><li>проблемы развития и поведения;</li><li>психологические проблемы, связанные с последствиями таких заболеваний, как диабет, инсульт или болезни сердца;</li><li>курение, алкоголизм или употребление наркотиков;</li><li>отношения в паре, семейные проблемы;</li><li>психологическая травма</li></ul>",
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/03/thinking_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 826
+                }
+            ],
+            "rating": 0,
+            "near_date": null,
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(43, 43, 43);\">Psiholog pentru adulți și copii, experiență profesională 16 ani</span></p><p><br></p><ul><li>Depresia</li><li>Tulburarea de stres posttraumatic (trauma)</li><li>Anxietatea generalizată</li><li>Tulburarea de panică (atacuri de panică) și agorafobia Anxietatea socială</li><li>Fobia specifică</li><li>Tulburarea obsesiv-compulsivă</li><li>Tulburările de conduită alimentară (bulimia, anorexia)</li><li>Tulburările de personalitate</li><li>Crize psihologice <span style=\"background-color: rgb(255, 255, 255);\">și</span> consiliere psihologică&nbsp;</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Psihologul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul psihologic.</span></p>",
+            "excperience_start_year": 2006,
+            "price": 500.0,
+            "country_code": {
+                "id": 7,
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            }
+        }
+    ]
+}

@@ -6,24 +6,24 @@ import { useParams } from "react-router-dom";
 import FullDescrip from "./FullDescrip";
 
 
+
 export default function DoctorsProfile() {
     const context = useContext(TranslateContext)
     const { userId } = useParams()
-    const translatePage = context[0].doctorProfile
-    const lang = context[1]
-    const doctor = context[0].results.find(elem => elem.id === Number(userId))
+    const alldoctors = context[0].doctors
+    const ind = alldoctors.findIndex(elem => elem.id === Number(userId))
+    const doctor = alldoctors[ind]
 
     return (
         <main>
-            <DoctorName doctor={doctor} translatePage={translatePage} lang={lang} />
+            <DoctorName doctor={doctor} i={ind} />
             <div className="container">
                 <div className="d-flex fullDescrip">
                     <div>
-                        <FullDescrip doctor={doctor} translatePage={translatePage} lang={lang} />
+                        <FullDescrip doctor={doctor}  i={ind} />
                     </div>
                 </div>
             </div>
-
         </main>
     )
 }
